@@ -1,0 +1,20 @@
+INFO (command-software) :
+  |__ perintah untuk terjemahan bahasa.
+
+COMMAND INSTALL :
+- sudo apt install translate-shell
+- sudo apt install bsdmainutils
+
+COMMAND PENGGUNAAN :
+- $ trans -b "text"
+  |__ tampilkan output hanya hasil terjemahan
+
+- $ trans -b :id "text"
+  $ trans :id "text"
+  |__ terjemah ke bahasa tertentu, ganti id dengan code negara
+
+- $ trans -T
+  $ trans -R
+  |__ tampilkan tabel code negara
+
+

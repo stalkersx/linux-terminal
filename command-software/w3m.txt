@@ -1,0 +1,19 @@
+INFO (command-software) :
+  |__ browser internet dari terminal
+
+COMMAND INSTALL :
+- $ sudo apt install w3m
+
+COMMAND PENGGUNAAN :
+- $ w3m https://google.com/
+  |__ penelusuran google
+
+- $ w3m -M [url]
+  |__ penelusuran mode chrome
+
+OPSI CONTROL :
+shift-H		bantuan
+shift-B		kembali ke halaman sebelumnya
+w		tab kanan
+W		tab kiri
+q		keluar

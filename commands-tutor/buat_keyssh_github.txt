@@ -1,0 +1,11 @@
+- $ ssh-keygen
+  |__ buat file key [ isi nama kunci, pharse tidak usah isi ]
+- $ ssh-agent /bin/bash
+- $ ssh-add <namakunci>
+  |__ tambahkan kunci ssh
+- $ ssh-add -l
+  |__ list kunci terpasang
+- $ cat namakunci.pub
+  |__ buka akun github lalu masuk menu keyssh --> copy kunci
+- $ ssh -T git@github.com
+  |__ authenticated kunci

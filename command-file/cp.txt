@@ -1,0 +1,15 @@
+INFO (command-file) :
+  |__ command copy file/folder ke path
+
+COMMAND PENGGUNAAN :
+- $ cp file /path/path/tujuan
+  $ cp /path/file /path/path/tujuan
+  $ cp {file,file,file} /path/path/tujuan
+  $ cp /path/path/{file,file,file} /path/path/tujuan
+  |__ copy file ke path (use {} jika file lebih dari 1)
+
+- $ cp -rf folder /path/path
+  $ cp -rf /path/file /path/path
+  $ cp -rf {folder,folder,folder} /path/path
+  $ cp -rf /path/path/{folder,folder,folder} /path/path
+  |__ copy folder ke path

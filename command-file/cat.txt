@@ -1,0 +1,6 @@
+INFO (command-file) :
+  |__ command baca isi file.txt
+
+COMMAND PENGGUNAAN (tanpa []) :
+- $ cat [file.txt]
+  |__ baca isi file dengan format .txt

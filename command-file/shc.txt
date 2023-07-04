@@ -1,0 +1,9 @@
+INFO (command-file) :
+  |_ tools compile scripts ke biner/menyembunyikan kode scripts
+
+COMMAND INSTALL :
+- $ apt install shc
+
+COMMAND PENGGUNAAN :
+- $ shc -f filescripts.sh
+  |_ compile dari scripts

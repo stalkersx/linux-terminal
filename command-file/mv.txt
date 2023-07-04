@@ -1,0 +1,13 @@
+INFO (command-file) :
+  |__ command pindahkan file/folder atau ganti nama
+
+COMMAND PENGGUNAAN :
+- $ mv filefolder /path/path
+  $ mv /path/pathxfilefolder /path/path
+  $ mv {file,folder,folder} /path/path
+  $ mv /path/path/{file,folder,file} /path/path
+  |__ pindakan file/folder ke path (gunakan {} jika lebih dari 1)
+
+- $ mv filefolder namabaru
+  $ mv /path/filefolder namabaru
+  |__ ganti nama file/folder

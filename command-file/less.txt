@@ -1,0 +1,6 @@
+INFO (command-file) :
+  |__ command baca isi file dalam ruang lain
+
+COMMAND PENGGUNAAN :
+- $ less file.txt
+  |__ baca file diruangan lain

@@ -1,0 +1,34 @@
+(root)
+INFO (command-network) :
+  |__ command cek antarmuka jaringan
+
+COMMAND INSTALL :
+- $ sudo apt install net-tools
+
+COMMAND PENGGUNAAN (tanda <> isi nilai) :
+- $ ifconfig
+  |__ cek antarmuka jaringan yang sedang digunakan
+
+- $ ifconfig -a
+  |__ cek semua antarmuka jaringan
+
+- $ ifconfig <namajaringan>
+  |__ cek hanya jaringan yang dipilih contoh : $ ifconfig eth0
+
+- $ ifconfig <namajaringan> up/down
+  |__ enable(up) atau disable(down) jaringan contoh
+      enable wifi : $ ifconfig wlan0 up
+
+- $ ifconfig <namajaringan> <ip>
+  $ ifconfig <namajaringan> netmask <netmaskaddress>
+  $ ifconfig <namajaringan> broadcast <ipbroadcast>
+  $ ifconfig <namajaringan> <192.***> netmask <255.2****> broadcast <172.***>
+  |__ tetapkan ip, netmask, atau broadcast yang diingikan pada jaringan
+
+- $ ifconfig <namajaringan> promisc/-promisc
+  |__ aktifkan(promisc) atau nonaktifkan(-promisc) mode promiscuous pada jaringan
+      mode promiscuous digunakan untuk menerima semua paket yang mengalir melalui
+      kartu jaringan
+
+- $ ifconfig <namajaringan> hw ether <macaddress>
+  |__ ubah macaddress pada jaringan

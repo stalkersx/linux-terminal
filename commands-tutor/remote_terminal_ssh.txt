@@ -1,0 +1,27 @@
+REMOTE TERMUX
+- $ sshd
+  |__ memulai server ssh
+
+- $ nmap localhost
+  |__ check port terbuka (oa-system)
+
+- $ whoami
+  |__ tampilkan username
+
+- $ passwd [username]
+  |__ buat password untuk username
+
+- $ ifconfig
+  |__ check alamat ip [ap0]
+
+- $ ssh [username@ip_address] -p [port]
+  |__ jalankan command di perangkat lain untuk terhubung
+
+- $ scp -P [port] [username@ip_address]:~/file/di/server /tempatkan/file/dilocal
+  |__ download file dari server ke local computer
+
+- $ scp -P [port] /file/local [username@ip_address]:/tempatkan/file
+  |__ upload file ke computer server
+
+REMOTE LINUX
+- $

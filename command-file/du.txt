@@ -1,0 +1,12 @@
+INFO (command-file) :
+  |__ command tampilkan ukuran file/folder
+
+COMMAND PENGGUNAAN :
+- $ du -h
+  |__ tampilkan list ukuran file/folder
+
+- $ du -sh /path/file/folder
+  |__ tampilkan ukuran file/folder (gunakan {} untuk beberapa file)
+
+- $ du -csh /path/file/folder
+  |__ tampilkan total ukuran file/folder

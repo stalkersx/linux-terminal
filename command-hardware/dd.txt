@@ -1,0 +1,6 @@
+INFO ( command-hardware ) :
+  |__ perintah buat bootable
+
+- COMMAND PENGGUNAAN :
+  |__ $ sudo dd if=/lokasi/file.iso of=/dev/partisidisk
+

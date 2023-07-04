@@ -1,0 +1,44 @@
+INFO (command-file)  :
+  |__ command kelola izin pada file/folder
+
+DETAIL COMMAND IZIN DENGAN HURUF :
+siapa :
+1. u ialah user
+2. g ialah grub
+3. o ialah other
+4. a ialah all
+
+operator :
+1. + ialah menambah izin
+2. - ialah menghapus izin
+
+izin :
+1. r ialah izin baca (read)
+2. w ialah izin tulis (write)
+3. x ialah izin eksekusi (exec)
+
+DETAIL COMMAND IZIN DENGAN ANGKA (OCTAL) :
+izin :
+read(r) adalah 4
+write(w) adalah 2
+exec(x) adalah 1
+kosong adalah 0
+
+urutan :
+example : drwx_rw_x
+owner : user=(4+2+1)_grub=(4+2)_other=(1)
+maka : 761
+
+COMMAND PENGGUNAAN (tanpa []) :
+- $ chmod [siapa|operator|izin] [file/folder]
+- $ chmod u+x filefolder
+  $ chmod u+x /path/filefolder
+  $ chmod u+x {file,folder}
+  $ chmod u+x /path/path/{file,folder,file}
+  |__ contoh beri izin eksekusi file/folder (ganda=rwx,rw)
+
+- $ chmod g+rwx [filefolder]
+  |__ contoh hapus izin grub (read,write,exec=rwx)
+
+- $ chmod 761 [filefolder]
+  |__ contoh beri izin dengan octal

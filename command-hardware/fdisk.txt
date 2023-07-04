@@ -1,0 +1,15 @@
+INFO ( command-hardware ) :
+  |__ kelola disk
+
+COMMAND PENGGUNAAN :
+- $ sudo fdisk /dev/sda
+  |__ kelola disk partisi dengan nama partisi sda
+
+OPSI :
+- m ialah untuk tampilkan bantuan
+- n ialah buat partisi
+- p ialah list partisi
+- d ialah hapus partisi
+- w ialah simpan perubahan
+- q ialah keluar keluar tanpa simpan
+- t ialah target jenis partisi

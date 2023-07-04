@@ -1,0 +1,21 @@
+INFO :
+  |__ tools github cli
+
+COMMAND INSTALL :
+- $ apt install gh
+
+COMMAND USE :
+- $ gh auth login
+  |__ login to account github.
+
+- $ gh repo list
+  |__ show list all repository
+
+- $ gh repo view
+  |__ show detail repository.
+
+- $ gh repo create [<namerepo>] --public --add-readme
+  |__ create new repository and make a file readme
+
+- $ gh repo delete [<namerepo>] --yes
+  |__ hapus repository

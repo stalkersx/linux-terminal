@@ -1,0 +1,13 @@
+INFO (command-file) :
+  |__ command untuk membuat file baru
+
+COMMAND PENGGUNAAN :
+- $ touch namaFile
+  |__ buat 1 file baru
+
+- $ touch /path/path/namaFile
+  |__ buat 1 file baru didalam folder path
+
+- $ touch {namafile,namafile,namafile}
+  $ touch /path/{namafile,namafile}
+  |__ buat beberapa file sekaligus

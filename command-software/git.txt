@@ -1,0 +1,84 @@
+INFO (command-software) :
+  |__ command kelola akun github
+
+COMMAND INSTALL :
+- $ apt install git
+
+COMMAND USE (tanda <> teks yang diisi):
+- $ git config -l
+  |__ tampilkan list global user
+
+- $ git config --global user.name "<usergithub>"
+  $ git config --global user.email "<emailgithub>"
+  |__ input nama user dan email
+
+COMMAND KELOLA LOCAL GITHUB :
+- $ git init <namafolder>
+  |__ buat repository berisi .git
+
+- $ git status
+  |__ detail pengerjaan, file dengan status merah, belum ditandai ke status
+
+- $ git log
+  |__ detail pesan log
+  
+- $ git add <namafile>
+  |__ tandai di status, namafile akan menjadi hijau [. untuk semua file]
+
+- $ git rm --cached <namafile>
+  |__ batalkan tandai di status [.untuk semua file]
+
+- $ git commit -m "judul detail"
+  |__ simpan file yang sudah ditandai ke repository
+
+- $ git switch <namabranch>
+  |__ berpindah branch yang aktif
+  
+- $ git pull <namaremote> <namabranch>
+  |__ ambil branch dari repo di github
+
+- $ git show
+  |__ detail list file commit untuk di push
+  
+- $ git push -u <namaremote> <namabranch>
+  |__ update file yang sudah di commit ke github
+  
+- $ git push <namaremote> -d <namabranch>
+  |__ hapus branch yang di github
+  
+- $ git branch
+  $ git branch -a
+  $ git branch --list <namabranch>
+  |__ tampilkan list branch local
+  
+- $ git branch <namabranch>
+- $ git branch --create <namabranch>
+  |__ buat branch baru local
+  
+- $ git branch --delete <namabranch>
+  $ git branch -d <namabranch>
+  |__ hapus branch local
+
+- COMMAND REMOTE LEWAT SSH ATAU HTTPS :
+- url-https = https://github.com/userakun/namarepo.git
+- url-ssh = git@github.com:userakun/namarepo.git
+- $ git remote -v
+  |__ list remote yang ada
+
+- $ git remote add <namaremote> git@github.com:userakun/namarepo.git
+  |__ tambahkan remote [ssh]
+
+- $ git remote set-url <namaremote> git@github.com:userakun/namarepo.git
+  |__ remote jika sudah ditambahkan [ssh]
+
+- $ git remote remove <namaremote>
+  |__ hapus remote [ssh]
+
+PROSES :
+- remote dulu melalui ssh atau https
+- buat branch atau ambil dari github dengan git pull
+- pilih branch dengan git switch
+- buat file atau folder
+- tandai file untuk dipush
+- jika sudah yakin no error commit file/folder
+- terakhir update/push

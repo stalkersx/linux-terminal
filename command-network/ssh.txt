@@ -1,0 +1,21 @@
+INFO (command-network) :
+  |__ command key penghubung antara server-client atau ke perangkat lain
+
+COMMAND INSTALL :
+- $ sudo apt install openssh
+
+COMMAND PENGGUNAAN :
+- $ ssh-keygen
+  |__ membuat file kunci ssh
+
+- $ ssh-add <filekunci>
+  |__ tambahkan kunci ke ssh
+
+- $ ssh-add -l
+  |__ list kunci terpasang
+
+- $ ssh [user_terminal@ip_wlan0] -p [port]
+  |__ remote terminal lewat jaringan wifi.
+
+- $ ssh -p [port_ip_wlan0] -L [port_ip_vnc]:[hostname]:[port_ip_vnc] [user@ip_wlan0]
+  |__ (jalankan vnc terlebih dahulu) hubungkan vnc remote desktop dengan ssh. example : ssh -p 8022 -L 5901:localhost:5901 u0_194@192.168.43.1

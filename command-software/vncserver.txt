@@ -1,0 +1,25 @@
+INFO (command-software) :
+  |__ software remote viewer system linux
+
+COMMAND INSTALL :
+- $ sudo apt install tigervnc-viewer
+- $ sudo apt install tigervnc
+
+COMMAND PENGGUNAAN :
+- $ vncserver
+  |__ mulai dengan display 1
+
+- $ vncserver :3
+  |__ mulai vnc di nomor display 3
+
+- $ vncserver -geometry <ukuran layar(1200x720)>
+  |__ tentukan ukuran layar vnc
+
+- $ vncserver -list
+  |__ tampilkan semua display aktif
+
+- $ vncserver -xstartup /path/to/xfce4
+  |__ mulai session desktop xfce
+
+- $ vncserver -kill :1
+  |__ matikan vnc pada display 1

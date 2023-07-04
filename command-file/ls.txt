@@ -1,0 +1,21 @@
+INFO (command-file) :
+  |__ perintah menampilkan list file dan folder
+
+COMMAND PENGGUNAAN :
+- $ ls
+  |__ tampilkan list diposisi saat ini
+
+- $ ls /path/path/path
+  |__ tampilkan list file/folder tanpa pindah posisi
+
+- $ ls -l /path/path
+  |__ tampilkan list file/folder secara detail
+
+- $ ls -a /path/path
+  |__ tampilkan list file/folder termasuk yang tersembunyi
+
+- $ ls -la /path/path
+  |__ tampikan semua list file/folder tersembunyi dan secara detail
+
+- $ ls -d /path
+  |__ tampilkan list hanya folder

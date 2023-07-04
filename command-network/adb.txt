@@ -1,0 +1,55 @@
+(root)
+INFO (command-network) :
+  |__ command configure android device
+
+COMMAND INSTALL :
+- $ sudo apt install adb
+- $ sudo apt install android-tools
+
+COMMAND PENGGUNAAN (tanda <> teks yang akan diisi) :
+- $ adb start-server
+  $ adb kill-server
+  |__ mulai(start) atau matikan(kill) server adb
+
+- $ adb usb
+  |__ mulai server dari usb
+
+- $ adb devices
+  |__ cek perangkat android yang tersambung
+
+- $ adb shell
+  $ adb shell <commandshell>
+  |__ masuk user shell atau gunakan command shell pada android
+
+- $ adb root
+- $ adb root <commandshell>
+  |__ masuk atau gunakan command shell pada android dengan izin root
+
+- $ adb remount <path/partition>
+  |__ mount akses partition ke read/write(rw)
+
+- $ adb push <path/computer> <path/android>
+  |__ tranfer file dari computer ke android
+
+- $ adb pull <path/android> <path/computer>
+  |__ transfer file dari android ke computer
+
+- $ adb install <com.package.apk>
+  |__ install apk
+
+- $ adb uninstall <com.package.name.apk>
+  |__ uninstall apk
+
+- $ adb tcpip <port>
+  |__ mulai server pada port contoh : $ adb tcpip 5555
+
+- $ adb connect <ipaddress:port>
+  |__ hubungkan ke ip address diport yang telah ditentukan
+
+- $ adb reconnect <serialno>
+  |__ putuskan sambungan didevice
+
+- $ adb reboot
+  $ adb reboot recovery
+  $ adb reboot bootloader
+  |__ mulai ulang perangkat normal atau masuk ke recovery/bootloader(fastboot)

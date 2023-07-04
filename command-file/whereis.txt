@@ -1,0 +1,7 @@
+INFO (command-file) :
+  |__ command mencari binary shell (command)
+
+COMMAND PENGGUNAAN :
+- $ whereis binary
+  $ whereis bash
+  |__ mencari binary bash di /bin

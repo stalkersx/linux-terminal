@@ -1,0 +1,30 @@
+INFO (command-language) :
+  |__ paket manager module python
+
+COMMAND INSTALL :
+- $ sudo apt install python3
+
+COMMAND PENGGUNAAN (tanpa []) :
+- $ pip install [nama paket]
+  |__ pasang module
+
+- $ pip install [nama paket] --upgrade
+  |__ update paket module
+
+- $ pip uninstall [nama paket]
+  |__ copot pemasangan module
+
+- $ pip list
+  |__ daftar semua module terinstall
+
+- $ pip search [nama paket]
+  |__ cari module
+
+- $ pip freeze > namafile.txt
+  |__ buat daftar module terinstall ke file.txt
+
+- $ pip install -r namafile.txt
+  |__ install semua module yang ada di dalam file.txt
+
+- $ pip show [nama paket]
+  |__ tampilkan detail module
