@@ -1,0 +1,6 @@
+INFO
+  |__ check ruang ram dan swap
+
+COMMAND PENGGUNAAN :
+- $ free -h
+  |__ check ram dan swap ukuran giga

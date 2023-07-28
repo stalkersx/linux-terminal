@@ -1,0 +1,6 @@
+INFO
+  |__ check statistic cpu used
+
+COMMAND PENGGUNAAN :
+- $ lscpu
+  |__ check detail cpu digunakan

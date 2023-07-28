@@ -1,0 +1,9 @@
+INFO
+  |__ format partition pada disk atau flahdisk type fat
+
+COMMAND PENGGUNAAN :
+- $ mkfs.vfat -F 32 /dev/nama_partisi
+  |__ format partisi ke type fat32
+
+- $ mkfs.vfat -F 16 /dev/nama_partisi
+  |__ format partisi ke type fat16

@@ -1,0 +1,6 @@
+INFO
+  |__ check user pada computer
+
+COMMAND PENGGUNAAN :
+- $ whoami
+  |__ check user yang digunakan

@@ -1,0 +1,6 @@
+INFO
+  |__ check memory disk
+
+COMMAND PENGGUNAAN :
+- $ df -h
+  |__ check disk dengan output ukuran giga

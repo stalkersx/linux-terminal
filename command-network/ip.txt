@@ -1,0 +1,9 @@
+INFO
+  |__ cek alamat ip (info protocol) perangkat
+
+INSTALL :
+- $ sudo apt install iproute2
+
+COMMAND PENGGUNAAN :
+- $ ip -s address
+  |__ cek statistik ip address

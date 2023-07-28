@@ -1,0 +1,6 @@
+INFO
+  |__ test menghubungkan jaringan
+
+COMMAND PENGGUNAAN :
+- $ ping ip/domain
+  |__ check menghubungkan jaringan ke alamat ip/domain

@@ -1,0 +1,9 @@
+INFO
+  |__ check nama host pada computer
+
+COMMAND PENGGUNAAN :
+- $ hostname
+  |__ check nama host perangkat
+
+- $ hostname -i
+  |__ check host ip address perangkat

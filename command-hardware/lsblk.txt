@@ -1,0 +1,9 @@
+INFO
+ |__ check partition disk
+
+INSTALL :
+- $ sudo apt install blk-utils
+
+COMMAND PENGGUNAAN :
+- $ lsblk
+  |__ check partisi digunakan

@@ -1,0 +1,6 @@
+INFO
+  |__ melepas mount dari disk
+
+COMMAND PENGGUNAAN :
+- $ umount /path/directory
+  |__ lepas mount dari folder ynag terpasang
