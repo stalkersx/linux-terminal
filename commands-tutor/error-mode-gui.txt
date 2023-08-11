@@ -1,0 +1,6 @@
+ATASI ERROR GUI MODE :
+- error tidak mau masuk desktop atau tampilan gui
+- $ sudo apt-get install --reinstall xorg
+- $ mv Xauthority XauthorityBak
+- $ sudo reboot
+- login seperti biasa
