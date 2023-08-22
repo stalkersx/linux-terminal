@@ -1,0 +1,17 @@
+DENGAN FILE :
+- $ sudo fallocate -l 1G namafile
+- $ sudo dd if=/dev/zero of=/nama/file bs=1024 count=1048576
+  |__ pilih 1 untuk pembuatan file swap nya
+- $ sudo chmod 600 /path/file/swap
+  |__ beri izin file swap
+- $ sudo mkswap /path/file/swap
+  |__ buat ruang lingkup swap
+- $ sudo rm /path/file/swap
+  |__ hapus file swap jika tidak digunakan
+
+DENGAN PARTISI :
+- buat partisi dengan gparted
+
+ON dan OFF swap :
+- $ sudo swapon /path/file/atau/partisi
+- $ sudo swapoff /path/file/atau/partisi
