@@ -1,0 +1,6 @@
+- $ am start --user 0 -n com.package.app.name/mainactivity
+- $ am start --user 0 -n com.android.chrome/com.google.android.apps.chrome.Main
+  |__ buka aplikasi android apapun dengan intent, contoh diatas
+      membuka aplikasi chrome, gunakan <dev tools.apk> untuk
+      menemukan <nama package dan mainactivity> aplikasi yang mau dibuka
+  
