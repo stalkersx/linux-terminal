@@ -31,6 +31,9 @@ COMMAND KELOLA LOCAL GITHUB :
 - $ git commit -m "judul detail"
   |__ simpan file yang sudah ditandai ke repository
 
+- $ git restore --staged <namafile>
+  |__ batalkan tandai di commit
+
 - $ git switch <namabranch>
   |__ berpindah branch yang aktif
   
