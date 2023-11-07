@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# found command everywhere
+# cp findcmd /bin
+# find directory
+if [ -f /data/data/com.termux/files/usr/bin/bash ];then
+		os=~/github/linux-terminal
+elif [ -f /usr/bin/bash ];then
+		os=~/Documents/github/linux-terminal
+else
+		echo "[!] shell os unknown"; exit
+fi
+
+# get command
+find_command(){
+  # get list folder
+  for fd in $(ls);do
+    # read about command
+    if [ -f $fd ] && [[ $fd == $1 ]];then
+      baca=$fd; locf=$(pwd); return
+    fi
+    # check directory
+    if [ -d $fd ] && [ -x $fd ];then cd $fd; find_command $1; cd ..; fi
+  done
+}
+
+# get input
+if [ $2 ] || [ -z $1 ];then
+		echo "usage : findcmd text_command"; exit
+fi
+cd $os
+find_command "$1.txt" baca locf
+command="$locf/$baca"
+
+# read about command
+if [ -f $command ];then
+  less $command
+else
+  echo "[!] command about file <$1.txt> not found"
+fi
