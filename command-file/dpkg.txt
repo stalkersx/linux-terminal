@@ -1,0 +1,45 @@
+(no root)
+INFO (command-file) :
+  |__ command manager package.deb
+
+COMMAND INSTALL :
+- $ sudo apt install dpkg
+
+COMMAND PENGGUNAAN PAKET TERPASANG (tanda <> teks yang akan diisi) :
+- $ dpkg -r <[package_name.deb]>
+  |__ uninstall paket menyisahkan file configure
+  
+- $ dpkg -P <[package_name]>
+  |__ uninstall paket keseluruhan
+  
+- $ dpkg -l <[package_name]>
+  |__ search paket terinstall
+  
+- $ dpkg -S <[package_name]>
+  |__ temukan detail data paket terinstall
+  
+- $ dpkg --print-architecture
+  |__ menampilkan achitecture yang di dukung dpkg/
+  
+- $ dpkg --print-foreign-architectures
+  |__ menampilkan architecture tambahan
+  
+- $ dpkg --add-architecture <[architecture_name]>
+  |__ tambahkan architecture baru
+  
+- $ dpkg --remove-architecture <[architecture_name]>
+  |__ hapus architecture
+
+
+COMMAND PENGGUNAAN PAKET FILE DEB :
+- $ dpkg -e <[package_file.deb]>
+  |__ menampilkan data control file deb
+  
+- $ dpkg -c <[package_file.deb]>
+  |__ menampilkan content file dari file deb
+  
+- $ dpkg -i <[package_file.deb]>
+  |__ install file paket deb
+  
+- $ dpkg -b <[directory_package]> <[name_version_architecture.deb]>
+  |__ compile folder project manjadi paket file.deb

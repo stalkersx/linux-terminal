@@ -1,0 +1,30 @@
+(no root)
+INFO (command-hardware) :
+  |__ command costum system android
+
+COMMAND INSTALL :
+- $ sudo apt install fastboot
+- $ sudo apt install android-tools
+
+COMMAND PENGGUNAAN (tanda <> teks yang akan diisi) :
+- $ fastboot devices
+  |__ check perangkat terhubung lewat usb
+
+- $ fastboot reboot
+  |__ restart hp
+  
+- $ fastboot reboot recovery
+  |__ masuk recovery hp
+  
+- $ fastboot flash unlock
+  |__ unlock bootloader (buka kunci bootloader)
+  
+- $ fastboot getvar current-slot
+  |__ check slot
+  
+- $ fastboot getvar all
+  |__ check status bootloader perangkat
+  
+- $ fastboot flash [/path/to/android/system] [/path/file/local]
+  |__ flashing (transfer data) ke system android
+  

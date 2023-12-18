@@ -16,7 +16,7 @@ PEMBUATAN PACKAGE.DEB SEDERHANA :
   Package: nama_program
   Version: nomor_versi
   Maintainer: example <example@example.com>
-  Architecture: target_model_cpu
+  Architecture: target_model_cpu (all)
   Homepage: http://url_web/jika/ada
   Description: penjelasan detail program anda
 

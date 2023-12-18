@@ -1,4 +1,4 @@
-(root)
+(no root)
 INFO (command-network) :
   |__ command configure android device
 
