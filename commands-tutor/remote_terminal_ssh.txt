@@ -1,9 +1,7 @@
-REMOTE TERMUX
+REMOTE TERMINAL VIA WIFI :
+1. COMPUTER 1 SERVER :
 - $ sshd
   |__ memulai server ssh
-
-- $ nmap localhost
-  |__ check port terbuka (oa-system)
 
 - $ whoami
   |__ tampilkan username
@@ -11,9 +9,16 @@ REMOTE TERMUX
 - $ passwd [username]
   |__ buat password untuk username
 
+- $ nmap localhost
+  |__ check port terbuka (oa-system)
+
 - $ ifconfig
   |__ check alamat ip [ap0]
 
+2. COMPUTER 2 CLIENTS :
+- $ ssh-keygen -f ".ssh/known_hosts" -R "[ip_address]:port"
+  |__ add key remote ip address to ssh
+  
 - $ ssh [username@ip_address] -p [port]
   |__ jalankan command di perangkat lain untuk terhubung
 
@@ -22,6 +27,3 @@ REMOTE TERMUX
 
 - $ scp -P [port] /file/local [username@ip_address]:/tempatkan/file
   |__ upload file ke computer server
-
-REMOTE LINUX
-- $

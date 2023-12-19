@@ -1,0 +1,16 @@
+INFO (command-network) :
+  |__ command transfer file lewat ssh client-server
+
+COMMAND INSTALL :
+- $ sudo apt install openssh
+
+COMMAND PENGGUNAAN SERVER :
+- $ sshd
+  |__ create server ssh
+  
+COMMAND PENGGUNAAN CLIENT :
+- $ scp -P [port] [username_server@ip_address]:~/file/di/server /tempatkan/file/dilocal
+  |__ download file dari server ke local computer
+
+- $ scp -P [port] /file/local [username_server@ip_address]:/tempatkan/file
+  |__ upload file local ke computer server
