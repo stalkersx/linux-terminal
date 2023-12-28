@@ -1,0 +1,9 @@
+ON ANDROID :
+- aktifkan --> about phone --> click 3x versi perangkat lunak
+- aktifkan --> opsi pengembang --> debugging usb
+- aktifkan --> opsi pengembang --> oem unlock
+
+ON LINUX :
+- $ fastboot bbk unlock_vivo
+- $ fastboot flashing unlock
+- $ fastboot oem unlock

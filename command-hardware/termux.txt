@@ -1,0 +1,16 @@
+(no root/root)
+INFO (command-hardware) :
+  |__ termux api untuk kontrol hardware hp
+  
+COMMAND PENGGUNAAN :
+- $ termux-setup-storage
+  |__ mendapatkan perizinan sdcard
+  
+- $ termux-change-repo
+  |__ menganti server repository
+  
+- $ termux-backup <[path/to/file_name_output]>
+  |__ backup data usr dan package terinstall
+  
+- $ termux-restore <[path/to/file_input]>
+  |__ pasang data usr yang telah dibackup

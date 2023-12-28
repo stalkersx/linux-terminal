@@ -1,0 +1,41 @@
+(root)
+INFO (command-software) :
+  |__ package manager linux tools
+
+COMMAND PENGGUNAAN :
+- $ sudo apt update
+  |__ perbaharui repository
+
+- $ sudo apt upgrade
+  $ sudo apt full-upgrade
+  |__ perbaharui paket terinstall
+
+- $ sudo apt install <[package_name]>
+  $ sudo apt install <[package_name> -y
+  |__ install paket (-y tanpa bertanya lagi)
+
+- $ sudo apt reinstall <[package_name]>
+  |__ install ulang paket
+
+- $ sudo apt purge <[package_name]>
+  |__ uninstall paket dan hapus file cache konfigurasi
+
+- $ sudo apt remove <[package_name]>
+  |__ uninstall paket tanpa hapus file cache konfigurasi
+
+- $ sudo apt list
+  $ sudo apt list <[package_name]>
+  |__ tampilkan semua daftar paket atau berdasarkan nama
+
+- $ sudo apt search <[package_name]>
+  |__ temukan paket dan menampilkan depkrisi
+
+- $ sudo apt show <[package_name]>
+  |__ tampilkan rincian paket
+
+- $ sudo apt autoremove
+  |__ hapus konfigurasi atau file paket yang tidak dibutuhkan lagi
+
+- $ sudo apt edit-sources
+  |__ edit file konfigurasi repository
+

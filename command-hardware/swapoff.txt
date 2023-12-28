@@ -1,0 +1,11 @@
+(root)
+INFO (command-hardware) :
+  |__ nonaktifin memory swap
+
+COMMAND INSTALL :
+- $ sudo apt install mount-utils
+
+COMMAND PENGGUNAAN :
+
+- $ sudo swapoff <[path/to/partition]>
+  |__ gunakan memory swap
