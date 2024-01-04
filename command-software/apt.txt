@@ -6,6 +6,11 @@ COMMAND PENGGUNAAN :
 - $ sudo apt update
   |__ perbaharui repository
 
+- $ sudo apt update --fix-missing
+- $ sudo apt install -f
+  $ sudo apt install --fix-broken
+  |__ perbaiki package error
+
 - $ sudo apt upgrade
   $ sudo apt full-upgrade
   |__ perbaharui paket terinstall
@@ -27,12 +32,20 @@ COMMAND PENGGUNAAN :
   $ sudo apt list <[package_name]>
   |__ tampilkan semua daftar paket atau berdasarkan nama
 
+- $ sudo apt list --installed
+  |__ tampilkan semua paket terinstall
+
+- $ sudo apt list --upgradable
+  |__ tampilkan paket yang perlu diupgrade
+
 - $ sudo apt search <[package_name]>
-  |__ temukan paket dan menampilkan depkrisi
+  |__ temukan semua paket dan menampilkan depkrisi
 
 - $ sudo apt show <[package_name]>
   |__ tampilkan rincian paket
 
+- $ sudo apt clean
+  |__ hapus cache dari paket yang telah diuninstall
 - $ sudo apt autoremove
   |__ hapus konfigurasi atau file paket yang tidak dibutuhkan lagi
 
