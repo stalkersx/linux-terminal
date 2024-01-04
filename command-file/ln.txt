@@ -1,0 +1,7 @@
+(root/no-root)
+INFO (command-file) :
+  |__ virtual akses pada file atau folder
+
+COMMMAND PENGGUNAAN :
+- $ ln -s <[path/file/dir]> <[/path/target/dir]>
+  |__ buat virtual akses symbolic ke path

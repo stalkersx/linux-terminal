@@ -8,3 +8,7 @@ COMMAND PENGGUNAAN :
 
 - $ sudo mount -w /dev/partisi_name /directory/tujuan
   |__ pasang partisi ke tujuan dengan izin read-write
+  
+- $ sudo mount -o remount,rw /dev/partisi_name
+  $ sudo mount -o remount,ro /dev/partisi_name
+  |__ ubah izin partisi ke rw atau ro

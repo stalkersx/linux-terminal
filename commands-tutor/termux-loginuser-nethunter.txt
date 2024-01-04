@@ -1,0 +1,18 @@
+- $ apt install tsu
+- $ apt install nano
+
+LOGIN ROOT :
+- $ su
+- $ bootkali
+  |__ login dari shell root android
+  
+- $ sudo /system/bin/bootkali
+  |__ login tanpa masuk shell root android
+
+LOGIN USER :
+- sudah membuat user nethunter
+- $ sudo nano /data/data/com.offsec.nethunter/files/scripts/bootkali_login
+  |__ edit text <[/bin/login -f root]> menjadi <[/bin/login -f username]> dan save
+  
+- $ sudo /system/bin/bootkali_login
+  |__ login ke user nethunter

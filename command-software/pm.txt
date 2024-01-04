@@ -1,0 +1,6 @@
+(root)
+INFO (command-software) :
+  |__ package manager pada terminal android
+
+COMMAND PENGGUNAAN :
+- $ pm uninstall --user <[com.package.name]>
