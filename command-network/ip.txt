@@ -1,9 +1,36 @@
-INFO
+(root/no-root)
+INFO (command-network) :
   |__ cek alamat ip (info protocol) perangkat
 
-INSTALL :
+COMMAND INSTALL :
 - $ sudo apt install iproute2
 
 COMMAND PENGGUNAAN :
-- $ ip -s address
-  |__ cek statistik ip address
+- $ sudo ip link set <[interface]> up
+  $ sudo ip link set <[interface]> down
+  |__ nyalakan(up) atau matikan{down} interface jaringan
+
+- $ ip -br addr show
+  $ ip -br addr show <[interface]>
+  |__ cek jaringan menyala atau mati (up/down)
+
+- $ ip addr show
+  $ ip addr show <[interface]>
+  |__ cek jaringan yang tersedia
+
+- $ sudo ip addr add <[new_ip_addr]> dev <[interface]>
+  |__ buat alamat ip costum pada interface
+
+- $ sudo ip addr delete <[ip_addr]> dev <[interface]>
+  |__ hapus alamat ip pada interface
+
+- $ ip addr show up
+  $ ip link show up
+  |__ cek semua jaringan yang sedang aktif (addr=show_ip)
+
+- $ ip route show
+  |__ cek jaringan yang sedang digunakan
+
+
+
+

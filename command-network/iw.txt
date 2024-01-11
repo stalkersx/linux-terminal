@@ -1,0 +1,23 @@
+(root)
+INFO (command-network) :
+  |__ kelola wifi via terminal
+
+COMMAND INSTALL :
+- $ sudo apt install wireless-tools
+
+COMMAND PENGGUNAAN :
+- $ sudo iw list
+  |__ tampilkan platforma wifi adapter perangkat
+
+- $ sudo iw dev wlan0 info
+  |__ info adafter wifi pada perangkat
+
+- $ sudo iw dev wlan0 set type <[mode]> <[flags]>
+  |__ ubah mode(managed,monitor) wifi untuk flags (none,control)
+
+- $ sudo iw dev wlan0 scan
+  |__ scan wifi sekitar
+
+- $ sudo iw dev wlan0 link
+  |__ check wifi terhubung
+

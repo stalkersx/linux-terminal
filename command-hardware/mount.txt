@@ -12,3 +12,6 @@ COMMAND PENGGUNAAN :
 - $ sudo mount -o remount,rw /dev/partisi_name
   $ sudo mount -o remount,ro /dev/partisi_name
   |__ ubah izin partisi ke rw atau ro
+
+- $ sudo mount -o bind /path/dir /path/to_target/dir
+  |__ pasang folder ke folder tujuan

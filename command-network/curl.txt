@@ -1,0 +1,16 @@
+(no-root)
+INFO (command-network) :
+  |__ tools transfer data lewat protokol jaringan
+
+COMMAND INSTALL :
+- $ sudo apt install curl
+
+COMMAND PENGGUNAAN :
+- $ curl <[url]>
+  |__ menampilkan konten code html suatu web
+
+- $ curl -O <[url]>
+  |__ download data dari url tanpa buat nama file
+
+- $ curl -o <[nama_file.format]> <[url]>
+  |__ download data dari url dengan buat nama file

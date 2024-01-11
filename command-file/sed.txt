@@ -1,0 +1,12 @@
+(root/no-root)
+INFO (command-file) :
+  |__ hapus text dalam sebuah file
+
+COMMAND PENGGUNAAN :
+- $ sed '<[line_number]>d' /path/file
+  $ sed '1d' file.txt
+  |__ cek text pada line di file
+
+- $ sed -i '<[line_number]>d' /path/file
+  $ sed -i '2d' ~/hello.txt
+  |__ hapus text dari line number

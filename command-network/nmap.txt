@@ -1,0 +1,10 @@
+(no root)
+INFO (command-network) :
+  |__ memindai port terbuka pada jaringan
+
+COMMAND INSTALL :
+- $ sudo apt install nmap
+
+COMMAND PENGGUNAAN :
+- $ nmap <[domain,ip_addr,hostname]>
+  |__ pindai port

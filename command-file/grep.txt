@@ -1,0 +1,11 @@
+(root/no-root)
+INFO (command-file) :
+  |__ pencari text, file, atau folder dalam sebuah perintah
+
+COMMAND PENGGUNAAN :
+- $ <[command]> | grep <[text]>
+  $ cat ~/file | grep hello
+  |__ temukan text dalam sebuah perintah
+
+- $ <[command]> | grep -n <[text]>
+  |__ temukan text dan nomor line dalam sebuah perintah

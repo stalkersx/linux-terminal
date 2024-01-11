@@ -1,7 +1,0 @@
-- $ cd templates
-- $ wget https://archive.kali.org/archive-key.asc -O kali-archive.asc
-- $ mv kali-archive.asc /etc/apt/trusted.gpg.d
-- $ cd /etc/apt/trusted.gpg.d
-- $ sudo chmod 644 kali-archive.asc
-- $ sudo mv kali-archive-keyring.gpg kali-archive-keyring.gpg.old
-- $ sudo apt update && apt upgrade

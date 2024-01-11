@@ -1,5 +1,0 @@
-simpan perintah sementara :
-- $ alias nama_perintah='command'
-  |__ simpan perintah, contoh : $ alias home='ls ~/'
-- $ alias -p
-  |__ tampilkan semua perintah tersimpan

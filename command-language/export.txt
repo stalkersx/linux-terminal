@@ -1,0 +1,13 @@
+(root/no-root)
+INFO (command-language) :
+  |__ manager variabel bash shell linux
+
+COMMAND PENGGUNAAN :
+- $ export
+  |__ tampilkan semua variabel shell
+
+- $ export <[variabel=tipedata]>
+  |__ buat/tambahkan variabel baru
+
+- $ export -n <[variabel]>
+  |__ hapus variabel dari shell

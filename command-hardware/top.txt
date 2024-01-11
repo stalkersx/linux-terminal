@@ -1,0 +1,25 @@
+(root/no_root)
+INFO (command-hardware) :
+  |__ monitor proses latar belakang berjalan
+
+COMMAND PENGGUNAAN :
+- $ top
+  |__ monitor semua proses
+
+- $ top -u <[user]>
+  |__ monitor proses dari nama user
+
+- $ top -p <[pid_number]>
+  |__ monitor proses dari nomor pid
+
+KEYWORD :
+Keys	Functions
+k	Kills a process
+M	Sorts the list by memory usage.
+N	Sorts the list by PID.
+r	Changes the priority of a process.
+h	Displays the help window.
+z	Displays running processes in colors.
+d	Changes the refresh time interval.
+c	Displays the absolute path of a process.
+CTRL+C;or;q	Stops the top command

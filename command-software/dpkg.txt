@@ -1,6 +1,6 @@
 (no root)
-INFO (command-file) :
-  |__ command manager package.deb
+INFO (command-software) :
+  |__ manager package.deb
 
 COMMAND INSTALL :
 - $ sudo apt install dpkg

@@ -1,8 +1,0 @@
-- $ sudo ifconfig wlan0 up
-  |__ menghidupkan wifi
-- $ sudo iwlist wlan0 scan
-  |__ pindai jaringan terdekat
-- $ sudo iwconfig wlan0 essid "namawifi" key s:passwd
-  |__ connect ke jaringan wifi
-- $ sudo ifconfig wlan0 down
-  |__ matikan wifi

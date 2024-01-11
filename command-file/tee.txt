@@ -1,0 +1,11 @@
+(root/no-root)
+INFO (command-file) :
+  |__ tulis text tanpa membuka file
+
+COMMAND PENGGUNAAN :
+- $ echo <[text]> | tee /path/file
+  |__ tulis text ke file namun menghapus text yang ada didalam file
+
+- $ echo <[text]> | tee -a /path/file
+  |__ tambahkan text ke file tanpa menghapus isi file
+

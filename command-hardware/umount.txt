@@ -3,4 +3,8 @@ INFO
 
 COMMAND PENGGUNAAN :
 - $ umount /path/directory
-  |__ lepas mount dari folder ynag terpasang
+  $ umount /dev/path/device
+  |__ lepas mount device
+
+- $ umount -R /path/directory
+  |__ lepas mount folder
