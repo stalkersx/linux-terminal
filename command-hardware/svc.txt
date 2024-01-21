@@ -1,0 +1,13 @@
+(root/no-root)
+INFO (command-hardware) :
+  |__ manager hardware terminal android
+
+COMMAND PENGGUNAAN :
+- $ svc data enable
+  $ svc data disable
+  |__ menghidupkan(enable) dan mematikan(disable) jaringan data
+
+- $ svc wifi enable
+  $ svc wifi disable
+  |__ menghidupkan(enable) dan mematikan(disable) jaringan wifi
+

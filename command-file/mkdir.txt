@@ -2,15 +2,18 @@ INFO (command-file) :
   |__ command untuk membuat folder baru
 
 COMMAND PENGGUNAAN :
-- $ mkdir  namaFile
+- $ mkdir  nama_folder
   |__ buat 1 folder baru
 
-- $ mkdir /path/path/namaFile
+- $ mkdir /path/path/nama_folder
   |__ buat 1 folder baru didalam folder path
 
-- $ mkdir {namafolder,namafolder,namafolder}
-  $ mkdir /path/{namafolder,namafolder}
+- $ mkdir {nama_folder,nama_folder,nama_folder}
+  $ mkdir /path/{nama_folder,nama_folder}
   |__ buat beberapa folder sekaligus
 
-- $ mkdir -m a=rwx namafile
+- $ mkdir -m a=rwx nama_folder
   |__ buat folder dengan izin costum (bisa buat folder izin sekaligus)
+
+- $ mkdir -p /nama_folder/nama_folder/nama_folder
+  |__ buat folder dalam folder sekaligus

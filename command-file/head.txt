@@ -1,0 +1,7 @@
+(no-root)
+INFO (command-file) :
+  |__ baca text dari nomor line
+
+COMMAND PENGGUNAAN :
+- $ head -n <[line_number]> /path/file | tail -1
+  |__ membaca file dengan nomor line dengan menampilkan 1 line

@@ -1,0 +1,13 @@
+(no-root)
+INFO (command-software) :
+  |__ manager audio
+
+COMMAND INSTALL :
+- $ sudo apt install pulseaudio*
+
+COMMAND PENGGUNAAN :
+- $ pulseaudio --start --exit-idle-time=-1
+  |__ mulai dengan tanpa mematikan otomatis
+
+- $ export PULSE_SERVER=127.0.0.1 && pulseaudio --start --disable-shm=1 --exit-idle-time=-1
+  |__ salurkan suara ke virtual linux

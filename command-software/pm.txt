@@ -3,4 +3,8 @@ INFO (command-software) :
   |__ package manager pada terminal android
 
 COMMAND PENGGUNAAN :
-- $ pm uninstall --user <[com.package.name]>
+- $ pm list packages
+  |__ tampilkan semua paket aplikasi terinstall
+
+- $ pm uninstall --user 0 <[com.package.name]>
+  |__ hapus aplikasi dari nama paket
