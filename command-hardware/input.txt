@@ -1,0 +1,26 @@
+(no-root)
+INFO (command-hardware) :
+  |__ perintah sentuhan layar android
+
+COMMAND PENGGUNAAN :
+- $ input keyevent <[nomor]>
+  |__ sentuh tombol layar
+
+- $ input text <[nomor_code]>
+  |__ buka kunci layar
+
+INPUT NOMOR :
+3	home
+4	back
+5	call
+6	end call
+26	status on/off android
+27	camera
+64	default browser
+66	enter
+67	delete
+207	contacts
+220/221	brightness down/up
+277	cut
+278	copy
+279	paste

@@ -6,5 +6,8 @@ COMMAND PENGGUNAAN :
 - $ pm list packages
   |__ tampilkan semua paket aplikasi terinstall
 
+- $ pm list packages -f <[com.package_name]>
+  |__ tampilkan path dari paket aplikasi
+
 - $ pm uninstall --user 0 <[com.package.name]>
   |__ hapus aplikasi dari nama paket

@@ -1,0 +1,7 @@
+(root)
+INFO (command-hardware) :
+  |__ menampilkan service android
+
+COMMAND PENGGUNAAN :
+- $ dumpsys activity activities | grep <[package_name]>
+  |__ tampilkan service app seperti activity, intent, datadir, dll
