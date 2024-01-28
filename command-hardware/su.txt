@@ -1,0 +1,8 @@
+(root)
+INFO (command-hardware) :
+  |__ super user akses tertinggi system linux
+
+COMMAND PENGGUNAAN :
+- $ su -c <[command]> <[user]>
+  $ su -c "ls /system" root
+  |__ jalankan command dengan izin user

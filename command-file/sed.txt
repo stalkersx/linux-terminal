@@ -10,3 +10,6 @@ COMMAND PENGGUNAAN :
 - $ sed -i '<[line_number]>d' /path/file
   $ sed -i '2d' ~/hello.txt
   |__ hapus text dari line number
+
+- $ <[command] | sed '/^[[:blank:]]*$/d'
+  |__ hapus line kosong dari pipe

@@ -6,6 +6,10 @@ COMMAND PENGGUNAAN :
 - $ ps -e/-A
   |__ monitor semua proses
 
+- $ ps <[options] -o <[flags]>
+  $ ps -A -o cmd
+  |__ monitor proses dari flags(pid,tty,cmd,time)
+
 - $ ps r
   |__ monitor semua proses yang hanya sedang berjalan
 
