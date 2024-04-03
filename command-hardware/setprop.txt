@@ -1,0 +1,17 @@
+(root)
+INFO :
+  |__ mengatur nilai build properties system android
+  
+COMMAND PENGGUNAAN :
+- # setprop [nama_buildprop=nilai]
+  |__ ubah nilai build prop
+  
+DAFTAR NAMA BUILD PROPS :
+- ro.build.type=userdebug
+  |__ ubah system ke type debugging
+
+- ro.config.low_ram=false
+  |__ nyalakan fitur gambar dalam gambar dan muncul diatas aplikasi lain
+  
+- service.adb.tcp.port=5554
+  |__ hubungkan adb wifi tanpa usb

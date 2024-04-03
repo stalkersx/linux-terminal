@@ -11,3 +11,13 @@ COMMAND PENGGUNAAN :
 
 - $ pm uninstall --user 0 <[com.package.name]>
   |__ hapus aplikasi dari nama paket
+  
+- $ pm list permissions
+  |__ check daftar perizinan aplikasi
+  
+- $ pm grant <[com.package.name]> <[permissions]>
+  |__ manual beri perizinan ke aplikasi
+  
+LIST PERMISSIONS
+- android.permission.SYSTEM_ALERT_WINDOW
+  |__ permissions feature picture in picture

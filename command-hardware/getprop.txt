@@ -1,0 +1,7 @@
+(no-root)
+info
+  |__ mendapatkan build properties system android
+  
+COMMAND PENGGUNAAN :
+- $ getprop
+  |__ tampilkan semua list build prop system
