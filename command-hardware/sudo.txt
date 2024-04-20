@@ -1,0 +1,13 @@
+INFO (no-root) :
+  |__ command for get root access or user
+  
+COMMAND INSTALL :
+- # apt install sudo
+
+COMMAND PENGGUNAAN :
+- $ sudo -s
+  |__ masuk shell root
+  
+- $ sudo -u <[user]> <["command"]> <["param"]> <["param"]>
+  $ sudo -u ryo "whoami"
+  |__ jalankan command tanpa masuk user lain

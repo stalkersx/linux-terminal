@@ -3,6 +3,14 @@ INFO (command-hardware) :
   |__ super user akses tertinggi system linux
 
 COMMAND PENGGUNAAN :
+- $ su
+  |__ login shell root
+  
+- $ su <[user]>
+  |__ login shell user
+  
 - $ su -c <[command]> <[user]>
+  $ su - <[user]> -c <[command]>
   $ su -c "ls /system" root
-  |__ jalankan command dengan izin user
+  $ su - root -c "whoami"
+  |__ jalankan command dengan pada user lain

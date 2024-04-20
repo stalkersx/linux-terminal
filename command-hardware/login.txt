@@ -1,0 +1,7 @@
+INFO (root) :
+  |__ command masuk shell user atau ke user lain
+  
+COMMAND PENGGUNAAN :
+- # login -f <[user]>
+  # login -f root
+  |__ login shell user
