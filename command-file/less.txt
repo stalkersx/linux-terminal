@@ -2,5 +2,8 @@ INFO (command-file) :
   |__ command baca isi file dalam ruang lain
 
 COMMAND PENGGUNAAN :
-- $ less file.txt
+- $ less <[file]>
   |__ baca file diruangan lain
+  
+- $ less -N <[file]>
+  |__ baca file dengan nampilkan line number

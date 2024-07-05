@@ -1,0 +1,10 @@
+INFO (root/no-root) :
+  |__ pengaturan tanggal dan waktu pada cli
+  
+COMMAND PENGGUNAAN :
+- $ date
+  |__ menampilkan tanggal dan waktu
+  
+- $ date -s "tanggal dan waktu"
+  $ date -s "1 FEB 2024 07:00:00"
+  |__ atur waktu dan tanggal

@@ -1,0 +1,10 @@
+(no-root)
+INFO :
+  |__ opsi untuk attribut atau variabel
+  
+COMMAND PEMGGUNAAN :
+- $ declare -a <[variabel]> <[variabel]>
+  |__ type variabel array
+  
+- $ declare -i <[variabel]> <[variabel]>
+  |__ type variabel integer/angka
