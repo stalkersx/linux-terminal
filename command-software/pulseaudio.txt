@@ -6,8 +6,9 @@ COMMAND INSTALL :
 - $ sudo apt install pulseaudio*
 
 COMMAND PENGGUNAAN :
-- $ pulseaudio --start --exit-idle-time=-1
-  |__ mulai dengan tanpa mematikan otomatis
-
+- $ pulseaudio --start --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1"
+--exit-idle-time=-1
+  |__ export suara ke virtual linux
+  
 - $ export PULSE_SERVER=127.0.0.1 && pulseaudio --start --disable-shm=1 --exit-idle-time=-1
   |__ salurkan suara ke virtual linux
