@@ -1,0 +1,6 @@
+INFO (root) :
+  |__ manager shell
+  
+COMMAND PENGGUNAAN :
+- $ chsh -s /bin/bash [user]
+  |__ buat user baru menjadi default shell

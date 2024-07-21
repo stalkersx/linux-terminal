@@ -1,0 +1,6 @@
+INFO (root) :
+  |__ manager password user shell
+  
+COMMAND PENGGUNAAN :
+- $ passwd [user]
+  |__ ganti password user

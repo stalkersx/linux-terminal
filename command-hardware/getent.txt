@@ -1,0 +1,6 @@
+info (no-root) :
+  |__ baca database dalam sebuah file
+  
+COMMAND PENGGUNAAN :
+- $ getent [group|passwd]
+  |__ tampilkan list user atau groups

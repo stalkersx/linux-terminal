@@ -1,0 +1,18 @@
+INFO (root) :
+  |__ buat pengguna baru
+  
+COMMAND PENGGUNAAN :
+- $  useradd -u [id_user] [user]
+  |__ buat user dengan costum id
+  
+- $ useradd -g [id_group] [user]
+  |__ buat user dengan costum id group
+  
+- $ useradd -d [/home/user] [user]
+  |__ buat user dengan buat costum home directory
+  
+- $ useradd -m [user]
+  |__ buat user dengan default home directory
+  
+- $ useradd -s [/bin/bash] [user]
+  |__ buat user dengan costum shell

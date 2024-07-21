@@ -1,0 +1,7 @@
+INFO (root) :
+  |__ manager user
+  
+COMMAND PENGGUNAAN :
+- $ usermod -a -G sudo [user]
+  |__ tambahkan user ke sudo untuk akses root
+  
