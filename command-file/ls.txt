@@ -19,3 +19,14 @@ COMMAND PENGGUNAAN :
 
 - $ ls -d /path
   |__ tampilkan list hanya folder
+  
+- $ ls -R /path/path
+  |__ tampilkan list folder dalam folder
+  
+- $ ls -h /path/path
+  $ ls -lh /path/path
+  |__ tampilkan list file/folder dengan ukuran ke kb,mb,gb
+  
+- $ ls -s /path/path
+  $ ls -sh /path/path
+  |__ tampilkan ukuran file/folder

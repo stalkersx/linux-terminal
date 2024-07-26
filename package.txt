@@ -1,0 +1,59 @@
+###### PACKAGE SOFTWARE UI #########
+- parole (pemutar video)
+- audacious (pemutar audio)
+- ristretto (penampil gambar)
+- mousepad (text editor)
+- geany (text editor)
+- netsurf-gtk (web brower lite)
+- firefox (web browser)
+- engrampa (extraktor file)
+- thunar (file manager)
+- network-manager (plugin manager jaringan)
+- qterminal (terminal emulator)
+
+######### PACKAGE CODE ##########
+# bash #
+- bash (basic bash)
+
+# c/c++ #
+- build-essential (basic c)
+
+# python #
+- python3 (basic python)
+- python3-pip (paket manager)
+- python3-venv (virtual scripts)
+
+# java #
+- openjdk-23-jre (basic java)
+- openjdk-23-jdk (module java)
+
+# javascripts #
+- nodejs (basic js)
+- npm (paket manager)
+
+# php #
+- php (basic php)
+
+# ruby #
+- ruby (basic ruby)
+
+########## PACKAGE TOOLS ###########
+# system #
+- fdisk (manager partisi)
+- mount (pemasangan partisi)
+
+# network #
+- net-tools (alat jaringan)
+- iproute2 (configure jaringan)
+- openssh (manager ssh)
+- nmap (scan port terbuka)
+- iftop (monitor penggunaan internet)
+
+# software #
+- apt (manager paket distro)
+- dpkg (manager paket local)
+- nano (text editor)
+- git (project github)
+- gh (manager github)
+- adb (debugging android)
+- fastboot (debugging fastboot android)
