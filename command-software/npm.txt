@@ -1,0 +1,34 @@
+INFO (root/no-root) :
+  |__ manager package javascripts
+  
+COMMAND INSTALL :
+- # apt install nodejs npm
+
+COMMAND PENGGUNAAN :
+- $ npm init
+  |__ add local directory for package installed
+  
+- $ npm install [nama_paket]
+  |__ instalasi paket local di folder
+  
+- $ npm install -g [nama_paket]
+  |__ instalasi paket global
+  
+- $ npm list
+  |__ daftar paket local
+  
+- $ npm list -g
+  |__ daftar paket global
+  
+- $ npm uninstall [nama_paket]
+  |___ unistalasi paket local
+  
+- $ npm uninstall -g [nama_paket]
+  |__ uninstalasi paket global
+  
+- $ npm update
+  $ npm update [nama-paket]
+  |__ pembaruan local paket
+  
+- $ npm search [nama_paket]
+  |__ mencari paket
