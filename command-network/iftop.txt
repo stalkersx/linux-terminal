@@ -1,0 +1,17 @@
+INFO (root) :
+  |__ monitor penggunaan data internet secara realtime
+  
+COMMAND INSTALL :
+- # apt install iftop
+
+COMMAND PENGGUNAAN :
+- # iftop
+  |__ monitor jaringan default
+  
+- # iftop -i [nama_jaringan]
+  |__ mendengarkan pada jaringan tertentu
+
+OPSI KEYWORD :
+h		menu/help
+n		show dns
+p		show port

@@ -1,0 +1,16 @@
+INFO (root) :
+  |__ manager service untuk deamon
+  
+COMMAND PENGGUNAAN :
+- # systemctl list-unit-files
+  |__ daftar semua service digunakan tidak
+  
+- # systemctl status <[nama_service]>
+  |__ detail status service
+  
+- # systemctl start <[name_service]>
+  # systemctl restart <[nama_services]>
+  |__ mulai atau mulai ulang proses service
+  
+- # systemctl stop <[nama_service]>
+  |__ menghentikan proses service

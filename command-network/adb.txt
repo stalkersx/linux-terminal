@@ -7,6 +7,9 @@ COMMAND INSTALL :
 - $ sudo apt install android-tools
 
 COMMAND PENGGUNAAN (tanda <> teks yang akan diisi) :
+- $ adb -s <[devices_id]> <[command]>
+  |__ lakukan perintah ke perangkat tujuan (multi-devices)
+  
 - $ adb start-server
   $ adb kill-server
   |__ mulai(start) atau matikan(kill) server adb

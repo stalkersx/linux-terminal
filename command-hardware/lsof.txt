@@ -1,0 +1,21 @@
+INFO (no-root) :
+  |__ tampilkan proses file aktif di sistem
+  
+COMMAND INSTALL :
+- # apt install lsof
+
+COMMAND PENGGUNAAN :
+- $ lsof -u <[nama_user]>
+  |__ tampilkan proses dari user
+  
+- $ lsof -i 4
+  $ lsof -i 6
+  |__ tampilkan proses pada antarmuka jaringan ipv4 atau ipv6
+  
+- $ lsof -i :<[port]>
+  $ lsof -i :22
+  |__ tampilkan proses dari port
+  
+- $ lsof -c <[nama_proses]>
+  $ lsof -c ssh
+  |__ tampilkan proses tertentu

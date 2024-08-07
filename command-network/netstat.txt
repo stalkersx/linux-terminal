@@ -1,0 +1,35 @@
+INFO (no-root) :
+  |__ check status jaringan
+  
+COMMAND INSTALL :
+- # apt install net-tools
+
+COMMAND PENGGUNAAN :
+- $ netstat -a
+  |__ proses yg sedang aktif
+  
+- $ netstat -at
+  |__ proses hanya pada protocol tcp
+  
+- $ netstat -au
+  |__ proses hanya pada protocol udp
+  
+- $ netstat -i
+  |__ jaringan yang sedang digunakan
+  
+- $ netstat -ai
+  |__ semua jaringan
+  
+- $ netstat -apt
+  $ netstat -apu
+  |__ proses dengan menampilkan pid dan nama program jika tersedia
+  
+- $ netstat -s
+  |__ statistic tipe jaringan
+  
+- $ netstat -g
+  $ netstat -ga
+  |__ tampilkan grup pada jaringan
+  
+- $ netstat -r
+  |__ route/jalur pada jaringan
