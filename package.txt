@@ -4,6 +4,7 @@
 - ristretto (penampil gambar)
 - mousepad (text editor)
 - geany (text editor)
+- visual studio code (text editor)
 - netsurf-gtk (web brower lite)
 - firefox (web browser)
 - engrampa (extraktor file)
@@ -48,6 +49,8 @@
 - openssh (manager ssh)
 - nmap (scan port terbuka)
 - iftop (monitor penggunaan internet)
+- NetworkManager (manager jaringan)
+- speedtest-cli (test kecepatan internet)
 
 # software #
 - apt (manager paket distro)

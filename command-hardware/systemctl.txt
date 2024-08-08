@@ -5,6 +5,12 @@ COMMAND PENGGUNAAN :
 - # systemctl list-unit-files
   |__ daftar semua service digunakan tidak
   
+- # systemctl enable <[nama_service]>
+  |__ aktifkan service sebelum dinyalakan
+  
+- # systemctl disable <[nama_service]>
+  |__ nonaktifkan service sebelum dimatikan
+  
 - # systemctl status <[nama_service]>
   |__ detail status service
   

@@ -1,0 +1,18 @@
+INFO (root) :
+  |__ manager service
+  
+COMMAND INSTALL :
+- # apt install sysvinit
+
+COMMAND PENGGUNAAN :
+- # service --status-all
+  |__ daftar nama service
+  
+- # service <[nama_service]> status
+  |__ check service berjalan
+  
+- # service <[nama_service]> start
+  |__ mulai service
+  
+- # service <[nama_service]> stop
+  |__ matikan service
