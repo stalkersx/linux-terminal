@@ -30,6 +30,9 @@ COMMAND PENGGUNAAN :
 
 - $ ip route show
   |__ cek jaringan yang sedang digunakan
+  
+- $ ip -4 -brief address
+  |__ cek jaringan local terhubung
 
 
 
