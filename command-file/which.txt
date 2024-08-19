@@ -1,0 +1,7 @@
+INFO (no-root) :
+  |__ check binary installer
+  
+COMMAND PENGGUNAAN :
+- $ which [command]
+  $ which bash
+  |__ check location binary

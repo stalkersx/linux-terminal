@@ -1,0 +1,14 @@
+INFO (no-root) :
+  |__ manager jaringan plugin ui
+  
+COMMAND INSTALL :
+- # apt install NetworkManager
+
+COMMAND PENGGUNAAN :
+- $ nmcli dev
+  $ nmcli dev status
+  $ nmcli d
+  |__ manager status perangkat jaringan
+  
+- $ nmcli d wlan0 connect "nama_ssid" passwd "your_passwd"
+  |__ login atau sambungkan jaringan wifi
