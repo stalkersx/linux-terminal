@@ -1,0 +1,12 @@
+INFO (root) :
+  |__ enable, disable, config nirkabel hardware jaringan
+  
+COMMAND INSTALL :
+- # apt install rfkill
+
+COMMAND PENGGUNAAN :
+- # rfkill list
+  |__ daftar status perangkat
+  
+- # rfkill unblock <[nama_interface]>
+  |__ open block perangkat

@@ -10,5 +10,5 @@ COMMAND PENGGUNAAN :
   $ nmcli d
   |__ manager status perangkat jaringan
   
-- $ nmcli d wlan0 connect "nama_ssid" passwd "your_passwd"
+- $ nmcli d wlan0 connect "nama_ssid" password "your_passwd"
   |__ login atau sambungkan jaringan wifi

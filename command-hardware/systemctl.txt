@@ -2,21 +2,40 @@ INFO (root) :
   |__ manager service untuk deamon
   
 COMMAND PENGGUNAAN :
-- # systemctl list-unit-files
+- # systemctl list-units
+  # systemctl list-units --all
+  # systemctl list-unit-files
   |__ daftar semua service digunakan tidak
   
 - # systemctl enable <[nama_service]>
-  |__ aktifkan service sebelum dinyalakan
-  
-- # systemctl disable <[nama_service]>
-  |__ nonaktifkan service sebelum dimatikan
+  # systemctl disable <[nama_service]>
+  |__ aktifkan atau nonaktifkan service
   
 - # systemctl status <[nama_service]>
   |__ detail status service
   
+- # systemctl is-active <[nama_services]>
+  |__ cek status service aktif(1) nonaktif(0)
+  
+- # systemctl is-enabled <[nama_services]>
+  |__ cek status menyala(1) atau mati(0)
+  
 - # systemctl start <[name_service]>
   # systemctl restart <[nama_services]>
+  # systemctl reload <[nama_services]>
   |__ mulai atau mulai ulang proses service
   
-- # systemctl stop <[nama_service]>
+- # systemctl stop <[nama_services]>
   |__ menghentikan proses service
+  
+- # systemctl cat <[nama_services]>
+  |__ membaca isi berkas configure services
+  
+- # systemctl edit --full <[nama_services]>
+  |__ edit berkas configure services
+  
+- # systemctl mask <[nama_services]>
+  # systemctl unmask <[nama_services]>
+  |__ menghentikan akses layanan total tanpa bisa dijalankan baik otomatis atau pun manual (unmask) membuka akses kembali
+  
+
