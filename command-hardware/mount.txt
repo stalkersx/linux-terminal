@@ -1,17 +1,21 @@
 (root)
 INFO (command-hardware) :
   |__ pasang partisi ke directory system
+  
+COMMAND INSTALL :
+- # apt install mount
 
 COMMAND PENGGUNAAN :
-- $ sudo mount /dev/partisi_name /directory/tujuan
+- $ sudo mount <[/dev/partisi_name]> <[/directory/tujuan]>
   |__ pasang partisi ke tujuan dengan izin read-only
 
-- $ sudo mount -w /dev/partisi_name /directory/tujuan
+- $ sudo mount -w <[/dev/partisi_name]> <[/directory/tujuan]>
+  $ sudo mount -o rw -t <[type_partisi]> <[/dev/partisi_name]> <[/directory/tujuan]>
   |__ pasang partisi ke tujuan dengan izin read-write
   
-- $ sudo mount -o remount,rw /dev/partisi_name
-  $ sudo mount -o remount,ro /dev/partisi_name
+- $ sudo mount -o remount,rw <[/dev/partisi_name]>
+  $ sudo mount -o remount,ro <[/dev/partisi_name]>
   |__ ubah izin partisi ke rw atau ro
 
-- $ sudo mount -o bind /path/dir /path/to_target/dir
+- $ sudo mount -o bind <[/path/dir]> <[/path/to_target/dir]>
   |__ pasang folder ke folder tujuan
