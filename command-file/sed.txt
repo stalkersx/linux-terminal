@@ -3,13 +3,23 @@ INFO (command-file) :
   |__ hapus text dalam sebuah file
 
 COMMAND PENGGUNAAN :
+- $ echo "text" | sed 's#.*/path##'
+  |__ pipe sed memotong sebelum /path
+  
 - $ sed '<[line_number]>d' /path/file
   $ sed '1d' file.txt
   |__ cek text pada line di file
 
-- $ sed -i '<[line_number]>d' /path/file
-  $ sed -i '2d' ~/hello.txt
+- $ sed -i "<[line_number]>d" /path/file
+  $ sed -i "2d" ~/hello.txt
   |__ hapus text dari line number
 
 - $ <[command] | sed '/^[[:blank:]]*$/d'
   |__ hapus line kosong dari pipe
+  
+- $ sed -n '/text/=' /path/file
+  |__ tampilkan nomor line dari text
+  
+- $ sed -e 's/text_old/new_text/' /path/file
+  $ sed -e 's/text_old/new_text/'; 's/text_old/new_file/' /path/file
+  |__ tampilkan dengan mengubah text

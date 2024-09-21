@@ -1,0 +1,6 @@
+INFO (no-root) :
+  |__ perintah mengambil nama file atau folder dalam path
+  
+COMMAND PENGGUNAAN :
+- $ basename /home/user/video/file
+  |__ mengambil nama file dalam path maka menghasilkan output file

@@ -1,0 +1,6 @@
+INFO (no-root) :
+  |__ perintah mengambil path directory
+  
+COMMAND PENGGUNAAN :
+- $ dirname /home/user/video/file
+  |__ mengambil path directory maka menjadi /home/user/video
