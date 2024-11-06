@@ -1,11 +1,10 @@
-(no root)
-INFO (command-software) :
+INFO (root) :
   |__ manager package.deb
 
 COMMAND INSTALL :
 - $ sudo apt install dpkg
 
-COMMAND PENGGUNAAN PAKET TERPASANG (tanda <> teks yang akan diisi) :
+COMMAND PENGGUNAAN PAKET TERPASANG (software) :
 - $ dpkg -r <[package_name.deb]>
   |__ uninstall paket menyisahkan file configure
   

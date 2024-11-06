@@ -1,5 +1,4 @@
-(no-root)
-info
+INFO (no-root) :
   |__ mendapatkan build properties system android
   
 COMMAND PENGGUNAAN :

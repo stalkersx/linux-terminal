@@ -1,6 +1,6 @@
 INFO (root) :
   |___ manager hapus user
   
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - $ userdel -r [user]
   |__ hapus user dan home directory

@@ -4,7 +4,7 @@ INFO (no-root) :
 COMMAND INSTALL :
 - # apt install NetworkManager
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (network) :
 - $ nmcli dev
   $ nmcli dev status
   $ nmcli d

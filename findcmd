@@ -24,17 +24,48 @@ find_command(){
   done
 }
 
-# get input
-if [ $2 ] || [ -z $1 ];then
-		echo "usage : findcmd text_command"; exit
-fi
+# found file
 cd $os
 find_command "$1.txt" baca locf
 command="$locf/$baca"
 
+# get package info command
+list_package(){
+  if ! [ -d "$os/command-$1" ];then
+    echo "! unknown $1" && exit
+  fi
+  for gp1 in $(ls $os | cut -d '-' -f 2);do
+    if [[ $gp1 == $1 ]];then
+      for gc in $(ls $os/command-$gp1);do
+        cname=$(echo $gc | cut -d '.' -f 1) 
+        cinfo=$(cat $os/command-$gp1/$gc | cut -d '_' -f 3 | head -n 2 | cut -d ':' -f 2)
+        echo -e "$cname $cinfo\n"
+      done
+    fi
+  done
+}
+
 # read about command
-if [ -f $command ];then
-  less $command
+if [[ $1 == "list" ]] && [ "$2" ];then
+  list_package $2
+elif [[ $1 == "--help" ]] && [ -z "$2" ];then
+  echo "
+findcmd [command_name]
+findcmd [options] [flags]
+
+OPTIONS :
+list      show info command
+
+FLAGS :"
+  for gp in $(ls $os);do
+    if [ -d $gp ];then
+      echo $gp | cut -d '-' -f 2
+    fi
+  done
 else
-  echo "[!] command about file <$1.txt> not found"
+  if [ -f $command ];then
+    less $command
+  else
+    echo "[!] command about file <$1.txt> not found"
+  fi
 fi

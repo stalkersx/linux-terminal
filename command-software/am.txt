@@ -1,8 +1,7 @@
-(root/no-root)
-INFO (command-software) :
+INFO (root/no-root) :
   |__ app manager pada terminal android
 
-COMMAND PENGGUNAAN ;
+COMMAND PENGGUNAAN (software) :
 - $ am start --user 0 -n <[com.package.app.name/mainactivity]>
   $ am start --user 0 -n com.android.chrome/com.google.android.apps.chrome.Main
   |__ buka aplikasi android apapun dengan intent, contoh diatas

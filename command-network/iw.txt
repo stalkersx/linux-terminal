@@ -1,11 +1,10 @@
-(root)
-INFO (command-network) :
+INFO (root) :
   |__ kelola wifi via terminal
 
 COMMAND INSTALL :
 - $ sudo apt install wireless-tools
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (network) :
 - $ sudo iw list
   |__ tampilkan platforma wifi adapter perangkat
 

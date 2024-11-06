@@ -1,10 +1,10 @@
-INFO (command-network) :
+INFO (no-root) :
   |__ command key penghubung antara server-client atau ke perangkat lain
 
 COMMAND INSTALL :
 - $ sudo apt install openssh
 
-COMMAND PENGGUNAAN SERVER :
+COMMAND PENGGUNAAN SERVER (network) :
 - $ sshd
   |__ create server ssh
   

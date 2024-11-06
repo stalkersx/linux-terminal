@@ -1,11 +1,10 @@
-(root/no-root)
-INFO (command-network) :
+INFO (root/no-root) :
   |__ cek alamat ip (info protocol) perangkat
 
 COMMAND INSTALL :
 - $ sudo apt install iproute2
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (network) :
 - $ sudo ip link set <[interface]> up
   $ sudo ip link set <[interface]> down
   |__ nyalakan(up) atau matikan{down} interface jaringan

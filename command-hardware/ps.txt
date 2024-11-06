@@ -1,8 +1,7 @@
-(root/no_root)
-INFO (command-hardware) :
+INFO (root/no-root) :
   |__ monitor proses latar belakang berjalan
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - $ ps -e/-A
   |__ monitor semua proses
 

@@ -1,10 +1,10 @@
-INFO (command-software) :
+INFO (no-root) :
   |__ remote client viewer linux pada vncserver
 
 COMMAND INSTALL :
 - $ sudo apt install tigervnc-viewer
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (software) :
 - $ vncviewer hostIp:port
   |__ connect client pada ip atau host dan port
 

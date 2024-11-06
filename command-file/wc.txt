@@ -1,0 +1,23 @@
+INFO (no-root) :
+  |__ menghitung jumlah baris, kata, dan byte dari setiap file yang ditentukan
+  
+COMMAND PENGGUNAAN (file) :
+- $ <[command]> | wc
+  $ ls folder | wc -l
+  |__ kombinasi wc dengan pipa
+  
+- $ wc <[file]>
+  |__ menampilkan total urutan dari jumblah baris, jumblah kata, dan jumblah karakter
+  
+- $ wc -l <[file]>
+  |__ menampilkan total hanya jumblah baris
+  
+- $ wc -w <[file]>
+  |__ menampilkan total hanya jumblah kata
+  
+- $ wc -m <[file]>
+  $ wc -c <[file]>
+  |__ menampilkan total hanya jumblah karakter/byte
+  
+- $ wc -L <[file]>
+  |__ menampilkan baris terpanjang

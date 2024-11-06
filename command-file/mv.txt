@@ -1,7 +1,7 @@
-INFO (command-file) :
+INFO (root/no-root) :
   |__ command pindahkan file/folder atau ganti nama
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (file) :
 - $ mv filefolder /path/path
   $ mv /path/pathxfilefolder /path/path
   $ mv {file,folder,folder} /path/path

@@ -1,7 +1,6 @@
-(root)
-INFO (command-hardware) :
+INFO (no-root) :
   |__ cek a directory is mount or not
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - $ sudo mountpoint /path/directory
   |__ folder mount(is a) kalau bkn mount(is not a)

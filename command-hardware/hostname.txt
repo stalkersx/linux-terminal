@@ -1,7 +1,7 @@
-INFO
+INFO (no-root) :
   |__ check nama host pada computer
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - $ hostname
   |__ check nama host perangkat
 

@@ -4,7 +4,7 @@ INFO (root) :
 COMMAND INSTALL :
 - # apt install iftop
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (network) :
 - # iftop
   |__ monitor jaringan default
   

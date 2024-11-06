@@ -1,7 +1,7 @@
-INFO ( command-hardware ) :
+INFO (no-root) :
   |__ perintah buat bootable
 
-- COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - $ sudo dd if=/lokasi/file.iso of=/dev/partisidisk bs=1M status=progress
   |__ buat bootable dari file tipe iso ke partisidisk/flashdisk dengan kecepatan 1 mb dengan
       dengan status proses ditampilkan    

@@ -1,10 +1,10 @@
-INFO
+INFO (root) :
   |__ melepas mount dari disk
 
-COMMAND PENGGUNAAN :
-- $ umount /path/directory
-  $ umount /dev/path/device
+COMMAND PENGGUNAAN (hardware) :
+- # umount /path/directory
+  # umount /dev/path/device
   |__ lepas mount device
 
-- $ umount -R /path/directory
+- # umount -R /path/directory
   |__ lepas mount folder

@@ -1,4 +1,4 @@
-INFO (command-file)  :
+INFO (root/no-root)  :
   |__ command kelola izin pada file/folder
 
 DETAIL COMMAND IZIN DENGAN HURUF :
@@ -29,7 +29,7 @@ example : drwx_rw_x
 owner : user=(4+2+1)_grub=(4+2)_other=(1)
 maka : 761
 
-COMMAND PENGGUNAAN (tanpa []) :
+COMMAND PENGGUNAAN (file) :
 - $ chmod [siapa|operator|izin] [file/folder]
 - $ chmod u+x filefolder
   $ chmod u+x /path/filefolder

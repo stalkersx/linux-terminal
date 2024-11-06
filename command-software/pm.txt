@@ -1,8 +1,7 @@
-(root)
-INFO (command-software) :
+INFO (root/no-root) :
   |__ package manager pada terminal android
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (software) :
 - $ pm list packages
   |__ tampilkan semua paket aplikasi terinstall
 

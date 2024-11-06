@@ -1,7 +1,7 @@
 INFO (no-root) :
   |__ simpan perintah shell
   
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (language) :
 - $ alias nama_perintah='command'
   |__ simpan perintah, contoh : $ alias home='ls ~/'
 - $ alias -p

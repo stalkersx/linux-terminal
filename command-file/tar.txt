@@ -1,10 +1,10 @@
-INFO (command-file) :
+INFO (no-root) :
   |__ command compile file/folder ke format tar
 
 COMMAND INSTALL :
 - $ sudo apt install tar
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (file) :
 - $ tar -cf namabaru.tar.gz filefolder
   $ tar -cf namabaru.tar.gz /path/path/filefolder
   $ tar -cf /path/namabaru.tar.gz /path/path/filefolder

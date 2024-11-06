@@ -1,8 +1,7 @@
-(no-root)
-INFO (command-file) :
+INFO (no-root) :
   |__ pipe get value command
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (language) :
 - $ <[command]> | awak '{print $1, $2, $3}'
   $ echo "hello my work" | awk '{print $3}'
   |__ print hanya index line tertentu

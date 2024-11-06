@@ -1,8 +1,7 @@
-(no-root)
-INFO (command-hardware) :
+INFO (no-root) :
   |__ perintah sentuhan layar android
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - $ input keyevent <[nomor]>
   |__ sentuh tombol layar
 

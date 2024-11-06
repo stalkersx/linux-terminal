@@ -1,8 +1,7 @@
-(no root/root)
-INFO (command-hardware) :
+INFO (root/no-root) :
   |__ matikan proses aplikasi berjalan
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - $ kill -SIGKILL <[pid_number]>
   |__ matikan proses dari nomor pid
 

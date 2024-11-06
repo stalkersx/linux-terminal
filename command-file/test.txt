@@ -1,6 +1,6 @@
 INFO (no-root) :
   |__ perintah test file
   
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (file) :
 - $ test -d /home/user/video
   |__ test check folder atau file, folder jika output di $? adalah 0

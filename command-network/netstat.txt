@@ -4,7 +4,7 @@ INFO (no-root) :
 COMMAND INSTALL :
 - # apt install net-tools
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (network) :
 - $ netstat -a
   |__ proses yg sedang aktif
   

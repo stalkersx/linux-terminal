@@ -1,8 +1,7 @@
-(root/no-root)
-INFO (command-hardware) :
+INFO (no-root) :
   |__ tentang perangkat usb
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - $ lsusb
   |__ tampilkan semua perangkat terhubung
 

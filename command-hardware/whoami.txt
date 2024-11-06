@@ -1,6 +1,6 @@
-INFO
+INFO (no-root) :
   |__ check user pada computer
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - $ whoami
   |__ check user yang digunakan

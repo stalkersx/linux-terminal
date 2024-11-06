@@ -1,0 +1,10 @@
+INFO (no-root) :
+  |__ kombinasi dengan perintah lain melalui pipe
+  
+COMMAND PENGGUNAAN (language) :
+- $ <[command]> | xargs <[command param]>
+  $ ls file | xargs cat
+  |__ mengirimkan hasil output ke input perintah lain
+  
+- $ <[command]> | xargs -t <[command param]>
+  |__ menampilkan perintah yang digunakan

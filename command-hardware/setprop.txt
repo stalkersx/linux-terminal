@@ -1,8 +1,7 @@
-(root)
-INFO :
+INFO (root) :
   |__ mengatur nilai build properties system android
   
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - # setprop [nama_buildprop=nilai]
   |__ ubah nilai build prop
   

@@ -4,7 +4,7 @@ INFO (root/no-root) :
 COMMAND INSTALL :
 - # apt install nodejs npm
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (software) :
 - $ npm init
   |__ add local directory for package installed
   

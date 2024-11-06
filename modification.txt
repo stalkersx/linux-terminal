@@ -1,0 +1,21 @@
+COMMAND AND (&&) :
+
+	sudo apt update && sudo apt upgrade && sudo apt autoremove
+	
+penjelasan :
+1. menjalankan banyak perintah sekaligus secara berurutan
+2. perintah diatas mengupdate paket system
+3. setelah selesai update langsung menjalankan perintah berikutnya
+4. kemudian melakukan upgrade paket
+5. dan menghapus paket yang tidak digunakan
+
+COMMAND PIPE (|) :
+
+	ls | grep nama_file | xargs cat
+
+penjelasan :
+1. menghubungkan output dari satu perintah langsung ke input perintah lain
+2. melihat daftar folder dengan ls
+3. memilih dengan kata kunci nama file menggunakan grep
+4. membaca semua isi yang masuk kata kunci fil
+

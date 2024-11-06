@@ -1,7 +1,7 @@
 INFO (root/no-root) :
   |__ pengaturan tanggal dan waktu pada cli
   
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (software) :
 - $ date
   |__ menampilkan tanggal dan waktu
   

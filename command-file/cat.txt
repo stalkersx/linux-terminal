@@ -1,6 +1,6 @@
-INFO (command-file) :
+INFO (no-root) :
   |__ command baca isi file.txt
 
-COMMAND PENGGUNAAN (tanpa []) :
+COMMAND PENGGUNAAN (file) :
 - $ cat [file.txt]
   |__ baca isi file dengan format .txt

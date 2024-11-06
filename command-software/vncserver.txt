@@ -1,11 +1,11 @@
-INFO (command-software) :
+INFO (no-root) :
   |__ software remote viewer system linux
 
 COMMAND INSTALL :
 - $ sudo apt install tigervnc-viewer
 - $ sudo apt install tigervnc
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (software) :
 - $ vncserver
   |__ mulai dengan display 1
 

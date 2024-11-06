@@ -1,7 +1,7 @@
-INFO (command-file) :
+INFO (no-root) :
   |__ command tampilkan ukuran file/folder
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (file) :
 - $ du -h
   |__ tampilkan list ukuran file/folder
 

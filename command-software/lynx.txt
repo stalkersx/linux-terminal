@@ -1,10 +1,10 @@
-INFO (command-software) :
+INFO (no-root) :
   |__ browser interface pada terminal
 
 COMMAND INSTALL :
 - $ sudo apt install lynx
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (software) :
 - $ lynx https://google.com
   |__ penelusuran google
 

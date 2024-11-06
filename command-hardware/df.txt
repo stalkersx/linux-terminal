@@ -1,6 +1,6 @@
-INFO
+INFO (no-root) :
   |__ check memory disk
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - $ df -h
   |__ check disk dengan output ukuran giga

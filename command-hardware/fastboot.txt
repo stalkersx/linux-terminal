@@ -1,12 +1,11 @@
-(no root)
-INFO (command-hardware) :
+INFO (no-root) :
   |__ command costum system android
 
 COMMAND INSTALL :
 - $ sudo apt install fastboot
 - $ sudo apt install android-tools
 
-COMMAND PENGGUNAAN (tanda <> teks yang akan diisi) :
+COMMAND PENGGUNAAN (hardware) :
 - $ fastboot devices
   |__ check perangkat terhubung lewat usb
 

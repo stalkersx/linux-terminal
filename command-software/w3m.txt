@@ -1,10 +1,10 @@
-INFO (command-software) :
+INFO (no-root) :
   |__ browser internet dari terminal
 
 COMMAND INSTALL :
 - $ sudo apt install w3m
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (software) :
 - $ w3m https://google.com/
   |__ penelusuran google
 

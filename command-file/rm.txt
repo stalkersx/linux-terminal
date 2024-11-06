@@ -1,7 +1,7 @@
-INFO (command-file) :
+INFO (root/no-root) :
   |__ command hapus file/folder
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (file) :
 - $ rm file
   $ rm /path/file
   $ rm {file,file}

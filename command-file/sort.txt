@@ -1,0 +1,22 @@
+INFO (no-root) :
+  |__ mengurutkan/acak isi berkas dan mencetak hasilnya dalam bentuk keluaran standar
+  
+COMMAND PENGGUNAAN (file) :
+- $ sort <[file]>
+  |__ urutkan berdasarkan standar output
+  
+- $ sort -o <[file_baru]> <[file_lama]>
+  |__ simpan perubahan ke file
+  
+- $ sort -c <[file]>
+  |__ check jika isi file sudah diurutkan
+  
+- $ sort -u <[file]>
+  |__ menghapus kata yang sama
+  
+- $ sort -R <[file]>
+  |__ mengacak isi file
+  
+- $ <[command]> | sort
+  $ ls -l | sort
+  |__ kombinasi pipe dengan sort

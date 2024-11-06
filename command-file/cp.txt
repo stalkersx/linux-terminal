@@ -1,7 +1,7 @@
-INFO (command-file) :
+INFO (no-root) :
   |__ command copy file/folder ke path
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (file) :
 - $ cp file /path/path/tujuan
   $ cp /path/file /path/path/tujuan
   $ cp {file,file,file} /path/path/tujuan

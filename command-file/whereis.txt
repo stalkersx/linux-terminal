@@ -1,7 +1,7 @@
-INFO (command-file) :
+INFO (no-root) :
   |__ command detail configure binary shell
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (file) :
 - $ whereis binary
   $ whereis bash
   |__ show detail binary shell

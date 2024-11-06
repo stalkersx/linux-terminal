@@ -1,7 +1,7 @@
-INFO ( command-hardware ) :
+INFO (root) :
   |__ kelola disk
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - $ sudo fdisk /dev/sda
   |__ kelola disk partisi dengan nama partisi sda
 

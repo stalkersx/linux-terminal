@@ -1,8 +1,7 @@
-(no root/root)
-INFO (command-hardware) :
+INFO (no-root) :
   |__ termux api untuk kontrol hardware hp
   
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - $ termux-setup-storage
   |__ mendapatkan perizinan sdcard
   

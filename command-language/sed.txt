@@ -1,8 +1,7 @@
-(root/no-root)
-INFO (command-file) :
+INFO (no-root) :
   |__ hapus text dalam sebuah file
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (language) :
 - $ echo "text" | sed 's#.*/path##'
   |__ pipe sed memotong sebelum /path
   

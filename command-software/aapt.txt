@@ -1,8 +1,7 @@
-(root/no-root)
-INFO (command-software) :
+INFO (root/no-root) :
   |__ manager prosess apps android
 
-COMMAND PWNGGUNAAN :
+COMMAND PWNGGUNAAN (software) :
 - $ aapt dump badging <[basedir]> | grep label:
   $ aapt d badging /data/app/~~OovgjTtCy0IRbvc5fzAAWA==/com.instagram.lite-nDUVm3BO2qMD2olQZvZT2Q==/base.apk | grep label:
   |__ menampilkan nama aplikasi (basedir : $ pm list packages -f com.package.name)

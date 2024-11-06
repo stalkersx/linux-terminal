@@ -1,16 +1,15 @@
-(root)
-INFO (command-hardware) :
+INFO (root) :
   |__ super user akses tertinggi system linux
 
-COMMAND PENGGUNAAN :
-- $ su
+COMMAND PENGGUNAAN (hardware) :
+- # su
   |__ login shell root
   
-- $ su <[user]>
+- # su <[user]>
   |__ login shell user
   
-- $ su -c <[command]> <[user]>
-  $ su - <[user]> -c <[command]>
-  $ su -c "ls /system" root
-  $ su - root -c "whoami"
+- # su -c <[command]> <[user]>
+  # su - <[user]> -c <[command]>
+  # su -c "ls /system" root
+  # su - root -c "whoami"
   |__ jalankan command dengan pada user lain

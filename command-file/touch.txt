@@ -1,7 +1,7 @@
-INFO (command-file) :
+INFO (no-root) :
   |__ command untuk membuat file baru
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (file) :
 - $ touch namaFile
   |__ buat 1 file baru
 

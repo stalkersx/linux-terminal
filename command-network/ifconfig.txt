@@ -1,11 +1,10 @@
-(root)
-INFO (command-network) :
+INFO (root/no-root) :
   |__ command cek antarmuka jaringan
 
 COMMAND INSTALL :
 - $ sudo apt install net-tools
 
-COMMAND PENGGUNAAN (tanda <> isi nilai) :
+COMMAND PENGGUNAAN (network) :
 - $ ifconfig
   |__ cek antarmuka jaringan yang sedang digunakan
 

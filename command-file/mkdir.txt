@@ -1,7 +1,7 @@
-INFO (command-file) :
+INFO (no-root) :
   |__ command untuk membuat folder baru
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (file) :
 - $ mkdir  nama_folder
   |__ buat 1 folder baru
 

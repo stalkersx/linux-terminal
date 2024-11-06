@@ -4,7 +4,7 @@ INFO (root) :
 COMMAND INSTALL :
 - # apt install rfkill
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - # rfkill list
   |__ daftar status perangkat
   

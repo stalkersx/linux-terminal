@@ -1,7 +1,7 @@
 INFO (root) :
   |__ manager user
   
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - $ usermod -a -G sudo [user]
   |__ tambahkan user ke sudo untuk akses root
   

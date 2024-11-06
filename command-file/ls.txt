@@ -1,7 +1,7 @@
-INFO (command-file) :
+INFO (root/no-root) :
   |__ perintah menampilkan list file dan folder
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (file) :
 - $ ls
   |__ tampilkan list diposisi saat ini
 

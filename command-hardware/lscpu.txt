@@ -1,6 +1,6 @@
-INFO
+INFO (no-root) :
   |__ check statistic cpu used
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - $ lscpu
   |__ check detail cpu digunakan

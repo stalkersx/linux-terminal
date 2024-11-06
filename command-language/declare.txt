@@ -1,8 +1,7 @@
-(no-root)
-INFO :
+INFO (no-root) :
   |__ opsi untuk attribut atau variabel
   
-COMMAND PEMGGUNAAN :
+COMMAND PEMGGUNAAN (language) :
 - $ declare -a <[variabel]> <[variabel]>
   |__ type variabel array
   

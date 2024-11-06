@@ -1,7 +1,7 @@
 INFO (root) :
   |__ manager service untuk deamon
   
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - # systemctl list-units
   # systemctl list-units --all
   # systemctl list-unit-files

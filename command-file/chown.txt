@@ -1,8 +1,7 @@
-(root)
-INFO (command-file)
+INFO (root) :
   |__ perubahan kepemilikan suatu file atau folder
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (file) :
 - $ sudo chown <[user_name:user_name]> <[/path/to/dir/or/file]>
   |__ ubah kepemilikan hanya pada folder atau file itu aja
 

@@ -4,7 +4,7 @@ INFO (root) :
 COMMAND INSTALL :
 - # apt install sysvinit
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - # service --status-all
   |__ daftar nama service
   

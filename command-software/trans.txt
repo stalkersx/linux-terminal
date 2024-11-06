@@ -1,11 +1,11 @@
-INFO (command-software) :
+INFO (no-root) :
   |__ perintah untuk terjemahan bahasa.
 
 COMMAND INSTALL :
 - sudo apt install translate-shell
 - sudo apt install bsdmainutils
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (software) :
 - $ trans -b "text"
   |__ tampilkan output hanya hasil terjemahan
 

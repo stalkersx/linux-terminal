@@ -1,11 +1,10 @@
-(root)
-INFO (command-hardware) :
+INFO (root/no-root) :
   |__ pasang partisi ke directory system
   
 COMMAND INSTALL :
 - # apt install mount
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - $ sudo mount <[/dev/partisi_name]> <[/directory/tujuan]>
   |__ pasang partisi ke tujuan dengan izin read-only
 

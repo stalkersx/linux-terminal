@@ -1,10 +1,10 @@
-INFO (command-software) :
+INFO (no-root) :
   |__ command kelola akun github
 
 COMMAND INSTALL :
 - $ apt install git
 
-COMMAND USE (tanda <> teks yang diisi):
+COMMAND PENGGUNAAN (software) :
 - $ git config -l
   |__ tampilkan list global user
 

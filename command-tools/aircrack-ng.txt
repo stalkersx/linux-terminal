@@ -1,5 +1,4 @@
-(root)
-INFO (tools-network-wifi) :
+INFO (root) :
   |__ hacking attack wifi wpa
 
 COMMAND INSTALL :
@@ -10,7 +9,7 @@ JENIS USB WIFI ADAPTER SUPPORT (mode monitor) :
 - Alfa AWUS036NHA
 - Realtek RTL8812AU
 
-COMMAND HACKING :
+COMMAND PENGGUNAAN (tools) :
 - $ sudo airmon-ng wlan0
   |__ ubah wifi adapter mode monitor berganti wlan0mon
 

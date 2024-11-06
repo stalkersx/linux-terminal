@@ -1,5 +1,4 @@
-(root/no-root)
-INFO (command-hardware) :
+INFO (root/no-root) :
   |__ manager hardware terminal android
 
 COMMAND PENGGUNAAN :

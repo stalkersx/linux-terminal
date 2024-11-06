@@ -1,0 +1,23 @@
+INFO (no-root) :
+  |__ menampilkan 10 baris terakhir atau tertentu
+  
+COMMAND PENGGUNAAN (file) :
+- $ tail <[file]>
+  |__ tampilkan 10 baris terakhir
+  
+- $ command | tail <[param]> <[param]>
+  $ echo "hello world" | tail -c 6
+  |__ tampikan byte/baris tertentu dengan pipe dari perintah
+  
+- $ tail -n <[jumblah_baris]> <[file]>
+  $ tail -<[jumblah_baris]> <[file]>
+  $ tail -50 file
+  |__ menampilkan beberapa baris terakhir tertentu
+  
+- $ tail -c <[jumblah_byte/huruf]> <[file]>
+  |__ menampilkan byte/huruf terakhir tertentu
+  
+- $ tail -f <[file]>
+  |__ monitor/pantau perubahan suatu file
+  
+  

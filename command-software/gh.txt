@@ -1,10 +1,10 @@
-INFO :
+INFO (no-root) :
   |__ tools github cli
 
 COMMAND INSTALL :
 - $ apt install gh
 
-COMMAND USE :
+COMMAND PENGGUNAAN (software) :
 - $ gh auth login
   |__ login to account github.
 

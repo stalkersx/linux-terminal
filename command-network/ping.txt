@@ -1,6 +1,6 @@
-INFO
+INFO (no-root) :
   |__ test menghubungkan jaringan
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (network) :
 - $ ping ip/domain
   |__ check menghubungkan jaringan ke alamat ip/domain

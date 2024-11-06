@@ -1,10 +1,10 @@
-INFO (command-language) :
+INFO (no-root) :
   |__ paket manager module python
 
 COMMAND INSTALL :
 - $ sudo apt install python3
 
-COMMAND PENGGUNAAN (tanpa []) :
+COMMAND PENGGUNAAN (language) :
 - $ pip install [nama paket]
   |__ pasang module
 

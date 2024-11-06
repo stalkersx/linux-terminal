@@ -4,7 +4,7 @@ INFO (no-root) :
 COMMAND INSTALL :
 - # apt install sudo
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - $ sudo -s
   |__ masuk shell root
   

@@ -1,8 +1,7 @@
-(root/no-root)
-INFO (command-file) :
+INFO (no-root) :
   |__ pencari text, file, atau folder dalam sebuah perintah
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (language) :
 - $ <[command]> | grep <[text]>
   $ cat ~/file | grep hello
   |__ temukan text dalam sebuah perintah

@@ -1,8 +1,7 @@
-(no-root)
-INFO (command-file) :
+INFO (no-root) :
   |__ gunting text dari character menjadi beberapa bagian
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (file) :
 - $ <[command]> | cut -d <[char]> -f <[index]>
   $ echo "linux,unix,mac,window" | cut -d ',' -f 1
   |__ gunting char lalu tampilkan line index

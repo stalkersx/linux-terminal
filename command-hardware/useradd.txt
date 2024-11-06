@@ -1,7 +1,7 @@
 INFO (root) :
   |__ buat pengguna baru
   
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (hardware) :
 - $  useradd -u [id_user] [user]
   |__ buat user dengan costum id
   

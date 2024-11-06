@@ -1,7 +1,7 @@
-INFO (command-file) :
+INFO (no-root) :
   |__ command baca isi file dalam ruang lain
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (file) :
 - $ less <[file]>
   |__ baca file diruangan lain
   

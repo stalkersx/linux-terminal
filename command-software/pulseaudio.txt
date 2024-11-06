@@ -1,11 +1,10 @@
-(no-root)
-INFO (command-software) :
+INFO (no-root) :
   |__ manager audio
 
 COMMAND INSTALL :
 - $ sudo apt install pulseaudio*
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (software) :
 - $ pulseaudio --start --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1"
 --exit-idle-time=-1
   |__ export suara ke virtual linux

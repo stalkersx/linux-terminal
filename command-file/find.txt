@@ -1,7 +1,7 @@
-INFO (command-file) :
+INFO (no-root) :
   |__ command mencari file/folder
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (file) :
 - $ find filefolder
   $ find /path/path/filefolder
   |__ temukan file/folder

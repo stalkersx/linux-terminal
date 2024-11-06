@@ -1,13 +1,12 @@
-(root)
-INFO (command-hardware) :
+INFO (root) :
   |__ aktifin memory swap
 
 COMMAND INSTALL :
 - $ sudo apt install mount-utils
 
-COMMAND PENGGUNAAN :
-- $ sudo swapon
+COMMAND PENGGUNAAN (hardware) :
+- # swapon
   |__ check memory swap yang sedang digunakan
 
-- $ sudo swapon <[path/to/partition]>
+- # swapon <[path/to/partition]>
   |__ gunakan memory swap

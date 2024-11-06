@@ -1,8 +1,7 @@
-(root/no-root)
-INFO (command-language) :
+INFO (no-root) :
   |__ manager variabel bash shell linux
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (language) :
 - $ export
   |__ tampilkan semua variabel shell
 

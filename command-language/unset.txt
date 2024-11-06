@@ -1,8 +1,7 @@
-(root/no-root)
-INFO (command-language) :
+INFO (no-root) :
   |__ hapus array, function atau variabel shell
 
-COMMAND PENGGUNAAN :
+COMMAND PENGGUNAAN (language) :
 - $ unset <[variabel/function/array]>
   |__ hapus function, variabel atau array pada shell
 
