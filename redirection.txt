@@ -1,0 +1,33 @@
+COMMAND OUTPUT REDIRECTION (>>/>) :
+
+	cat file > new.txt
+	cat file >> new.txt
+	cat file > /dev/null
+	
+penjelasan :
+1. mengirim output command ke file
+2. simbol > ialah menghapus file new jika file new sudah ada sebelumnya
+3. simbol >> ialah menambahkan output jika file new sudah ada sebelumnya
+4. mengirimkan output ke /dev/null tanpa jejak
+
+COMMAND INPUT REDIRECTION (<) :
+
+	sort < file.txt
+	cat < file.txt
+	
+penjelasan :
+1. pembelokan output ke input lalu kembali jadi output
+2. output isi file.txt dibelokan ke sort lalu kembali ke output terminal
+3. file.txt dibelokan ke perintah cat
+
+COMMAND ERROR REDIRECTION (2>) :
+
+	cat file.txt 2> error.txt
+	cat file.txt 2>&1
+	cat file.txt 2>&1 error.txt 2>&1
+	
+penjelasan :
+1. mengirim hanya output pesan error ke file
+2. membaca file.txt jika ada error akan dikirim ke file error.txt
+3. simbol &1 ialah mengirim jika ada pesan error akan dicetak diterminal
+4. mengirim pesan error ke error.txt dan menampilkan diterminal juga

@@ -1,6 +1,7 @@
-COMMAND AND (&&) :
+COMMAND MULTI (&&/;) :
 
 	sudo apt update && sudo apt upgrade && sudo apt autoremove
+	cd ~; ls; ls Downloads; ls Templates
 	
 penjelasan :
 1. menjalankan banyak perintah sekaligus secara berurutan
@@ -8,6 +9,7 @@ penjelasan :
 3. setelah selesai update langsung menjalankan perintah berikutnya
 4. kemudian melakukan upgrade paket
 5. dan menghapus paket yang tidak digunakan
+6. sama saja mengunakan simbol ; atau &&
 
 COMMAND PIPE (|) :
 
@@ -17,5 +19,4 @@ penjelasan :
 1. menghubungkan output dari satu perintah langsung ke input perintah lain
 2. melihat daftar folder dengan ls
 3. memilih dengan kata kunci nama file menggunakan grep
-4. membaca semua isi yang masuk kata kunci fil
-
+4. membaca semua isi yang masuk kata kunci file

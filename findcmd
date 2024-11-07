@@ -32,7 +32,7 @@ command="$locf/$baca"
 # get package info command
 list_package(){
   if ! [ -d "$os/command-$1" ];then
-    echo "! unknown $1" && exit
+    echo "! unknown flags $1" && exit
   fi
   for gp1 in $(ls $os | cut -d '-' -f 2);do
     if [[ $gp1 == $1 ]];then
@@ -45,11 +45,9 @@ list_package(){
   done
 }
 
-# read about command
-if [[ $1 == "list" ]] && [ "$2" ];then
-  list_package $2
-elif [[ $1 == "--help" ]] && [ -z "$2" ];then
-  echo "
+# get help about command
+help_command(){
+    echo "
 findcmd [command_name]
 findcmd [options] [flags]
 
@@ -62,10 +60,23 @@ FLAGS :"
       echo $gp | cut -d '-' -f 2
     fi
   done
+}
+
+# read about command
+if [[ $1 == "list" ]];then
+  if [ -z $2 ];then
+    echo "! flags is empty"
+  else
+    list_package $2
+  fi
 else
   if [ -f $command ];then
     less $command
   else
-    echo "[!] command about file <$1.txt> not found"
+    if [ -z $1 ];then
+      help_command
+    else
+      echo "! command about file <$1.txt> not found"
+    fi
   fi
 fi
