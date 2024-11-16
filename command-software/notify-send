@@ -1,0 +1,12 @@
+INFO (no-root) :
+  |__ notifikasi langsung ke system xfce4
+  
+COMMAND INSTALL :
+- # apt install xfce4-notifyd
+
+COMMAND PENGGUNAAN (software) :
+- $ notify-send <["judul"]> <["text"]>
+  |__ kirim notifikasi text
+  
+- $ notify-send -i <[logo_name]> <["judul"]> <["text"]>
+  |__kirim notifikasi dengan icon

