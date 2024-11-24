@@ -3,6 +3,7 @@ INFO (root) :
 
 COMMAND PENGGUNAAN (file) :
 - $ sudo chown <[user_name:user_name]> <[/path/to/dir/or/file]>
+  $ sudo chown <[user_id:user_id]> <[/path/to/dir/or/file]>
   |__ ubah kepemilikan hanya pada folder atau file itu aja
 
 - $ sudo chown -R <[user_name:user_name]> <[/path/to/dir]>
