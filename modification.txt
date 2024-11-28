@@ -20,3 +20,23 @@ penjelasan :
 2. melihat daftar folder dengan ls
 3. memilih dengan kata kunci nama file menggunakan grep
 4. membaca semua isi yang masuk kata kunci file
+
+COMMAND PROSES BACKGROUND (&) :
+
+	sleep 10 &
+	
+penjelasan :
+1. menjalankan perintah proses dilatar belakang
+2. perulangan yang dilakukan perintah sleep akan berjalan dilatar belakang
+
+COMMAND OR (||) :
+
+	ls /path/file || echo "file tidak ada"
+	ls /home/ryo/file1 2> /dev/null || echo "file tidak ditemukan"
+	
+penjelasan :
+1. menjalankan 1 perintah yang benar, jika perintah pertama gagal maka perintah ke 2 akan dijalankan
+2. ls mengecheck file ada tidak, jika tidak ada maka echo akan dijalankan
+
+	
+

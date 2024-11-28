@@ -1,0 +1,7 @@
+INFO (no-root) :
+  |__ pengirim sinyal atau perintah ketika kill proses
+
+COMMAND PENGGUNAAN (hardware) :
+- $ trap "<[command]> <[param]>" EXIT SIGINT SIGTERM
+  $ trap "echo 'program dihentikan'" EXIT SIGINT SIGTERM
+  |__ jalankan perintah ketika proses distop, exit ialah sinyal window, sigint ialah sinyal ctrl+c, sigterm ialah sinyal dari perintah kill, buat proses perulangan ketika ditekan ctrl+c maka output program dihentikan akan muncul di terminal.
