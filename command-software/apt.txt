@@ -13,6 +13,9 @@ COMMAND PENGGUNAAN (software) :
 - # apt upgrade
   # apt full-upgrade
   |__ perbaharui paket terinstall
+  
+- # apt install --only-upgrade <[package_name]>
+  |__ upgrade 1 paket saja
 
 - # apt install <[package_name]>
   # apt install <[package_name> -y

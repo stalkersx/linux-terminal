@@ -28,3 +28,6 @@ COMMAND PENGGUNAAN (language) :
 
 - $ pip show [nama paket]
   |__ tampilkan detail module
+  
+- $ pip [command] [param] --break-system-packages
+  |__ paksa jalankan perintah
