@@ -1,0 +1,13 @@
+INFO (no-root) :
+  |__ untuk memasang dan melepas sistem berkas FUSE (Filesystem in Userspace).
+  
+COMMAND PENGGUNAAN :
+- # fusermount -u <[/path/folder]>
+  |__ Lepaskan sistem berkas FUSE.
+  
+- # fusermount -z <[/path/folder]>
+  |__ Lepaskan sistem berkas FUSE segera setelah tidak digunakan lagi.
+  
+- # fusermount -uz <[/path/folder]>
+  |__ Lepas sistem berkas file ??? status (ls -la).
+  
