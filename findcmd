@@ -4,7 +4,7 @@
 # cp findcmd /bin
 # find directory
 if [ -f /data/data/com.termux/files/usr/bin/bash ];then
-		os=~/github/linux-terminal
+		os=~/Documents/github/linux-terminal
 elif [ -f /usr/bin/bash ];then
 		os=~/Documents/github/linux-terminal
 else
