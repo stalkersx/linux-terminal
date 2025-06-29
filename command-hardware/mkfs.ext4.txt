@@ -1,0 +1,6 @@
+INFO (no-root) :
+  |__ format partition type ext4
+
+COMMAND PENGGUNAAN (hardware) :
+- $ mkfs.ext4 /path/partition
+  |__ format default

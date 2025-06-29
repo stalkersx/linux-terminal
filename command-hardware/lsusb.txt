@@ -5,5 +5,8 @@ COMMAND PENGGUNAAN (hardware) :
 - $ lsusb
   |__ tampilkan semua perangkat terhubung
 
-- $ lsusb
+- $ lsusb -v
   |__ tampilkan detail informasi perangkat terhubung
+
+- $ lsusb -t
+  |__ tampilkan informasi perangkat terhubung dengan mode pohon

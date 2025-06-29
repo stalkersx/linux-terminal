@@ -1,0 +1,6 @@
+INFO (no-root) :
+  |__ check proses hardware runtime
+
+COMMAND PENGGUNAAN (hardware) :
+- $ watch -n 5 cat /sys/class/power_supply/BAT1/capacity
+  |__ check status batre runtime

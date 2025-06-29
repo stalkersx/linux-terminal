@@ -1,0 +1,6 @@
+INFO (no-root) :
+  |__ configuration partition disk
+
+COMMAND PENGGUNAAN (hardware) :
+- $ tune2fs -l /path/partition
+  |__ check informasi configuration partition

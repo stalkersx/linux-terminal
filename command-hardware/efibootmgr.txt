@@ -1,0 +1,9 @@
+INFO (no-root) :
+  |__ configuration menu boot efi di grub2
+
+COMMAND PENGGUNAAN (hardware) :
+- $ efibootmgr -v
+  |__ tampilkan informasi dari menu boot
+  
+- $ efibootmgr -p [partition] -b [id_boot] -B
+  |__ hapus boot os dari grub2
