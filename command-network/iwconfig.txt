@@ -1,0 +1,13 @@
+INFO (root) :
+  |__ kelola wifi via terminal
+
+COMMAND INSTALL :
+- $ sudo apt install wireless-tools
+
+COMMAND PENGGUNAAN (network) :
+- # iwconfig wlan1 mode monitor
+  |__ ganti wifi dalam mode monitor
+  
+- # iwconfig wlan1 channel <number>
+  |_ ganti channel pada adaptor wifi
+  

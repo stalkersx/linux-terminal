@@ -1,0 +1,11 @@
+INFO (root) :
+  |__ kelola wifi via terminal
+
+COMMAND INSTALL :
+- $ sudo apt install wireless-tools
+
+COMMAND PENGGUNAAN (network) :
+- # iwlist wlan1 scan
+  |__ scan wifi sekitar dalam mode monitor
+  
+- # 

@@ -77,6 +77,9 @@ COMMAND KELOLA LOCAL GITHUB :
 - $ git remote remove <namaremote>
   |__ hapus remote [ssh]
 
+- $ git remote rename [<namaremotelama>]  [<namaremotebaru]>
+  |__ perbaharui remote di local komputer linux, setelah rename, lalu lakukan push repo baru.
+  
 PROSES :
 - remote dulu melalui ssh atau https
 - buat branch atau ambil dari github dengan git pull

@@ -19,4 +19,8 @@ COMMAND PENGGUNAAN (network) :
 
 - $ sudo iw dev wlan0 link
   |__ check wifi terhubung
+  
+- $ sudo iw dev wlan1 set channel <[number]>
+  |__ setel atau kunci saluran tertentu dalam mode monitor
+  
 

@@ -19,3 +19,8 @@ COMMAND PENGGUNAAN (software) :
 
 - $ gh repo delete [<namerepo>] --yes
   |__ hapus repository
+
+- $ gh repo rename [<namarepobaru>]
+  |__ menganti nama di server github, pastikan anda berada di folder local remote
+  
+ 
