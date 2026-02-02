@@ -12,3 +12,7 @@ COMMAND PENGGUNAAN (network) :
   
 - $ nmcli d wlan0 connect "nama_ssid" password "your_passwd"
   |__ login atau sambungkan jaringan wifi
+
+- $ nmcli dev wlan0 show-password
+  |__ menampilkan password wifi yang sedang terhubung.
+  

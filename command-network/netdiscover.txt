@@ -1,0 +1,10 @@
+INFO (root) :
+  |__ memindai secara realtime ip perangkat lain pada wifi yang sedang terhubung.
+
+COMMAND INSTALL :
+- # apt install netdiscover
+
+COMMAND PENGGUNAAN (network) :
+- # netdiscover -r <[domain,ip_addr,hostname]>
+  |__ pindai ip secara realtime perangkat yang sedang terhubung.
+  
