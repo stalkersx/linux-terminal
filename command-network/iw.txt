@@ -23,4 +23,11 @@ COMMAND PENGGUNAAN (network) :
 - $ sudo iw dev wlan1 set channel <[number]>
   |__ setel atau kunci saluran tertentu dalam mode monitor
   
+- $ sudo iw dev wlan1 interface add <[newifname]> type managed
+  |__ buat interface baru pada perangkat yang sama
+  
+- $ sudo iw list | grep -A 10 "supported interface modes"
+  |__ check wifi mode yang didukung, monitor,manager,master/hotspot
 
+- $ sudo iw list | grep -A 10 "valid interface combinations"
+  |__ check wifi bisa buat interface lebih dari 1, #{ managed } <= 1 (ini adalah hasil interface tidak bisa lebih dari 1)

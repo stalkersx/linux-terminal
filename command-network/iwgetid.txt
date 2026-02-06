@@ -1,0 +1,11 @@
+INFO (noroot) :
+  |__ kelola wifi via terminal
+
+COMMAND INSTALL :
+- $ sudo apt install wireless-tools
+
+COMMAND PENGGUNAAN (network) :
+- # iwgetid -c wlan0
+  |__ check channel yang sedang digunakan wifi
+  
+- #
