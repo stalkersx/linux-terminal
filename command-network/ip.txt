@@ -21,6 +21,7 @@ COMMAND PENGGUNAAN (network) :
   |__ buat alamat ip costum pada interface
 
 - $ sudo ip addr delete <[ip_addr]> dev <[interface]>
+  $ sudo ip addr flush dev <[interface]>
   |__ hapus alamat ip pada interface
 
 - $ ip addr show up

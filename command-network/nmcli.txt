@@ -16,3 +16,6 @@ COMMAND PENGGUNAAN (network) :
 - $ nmcli dev wlan0 show-password
   |__ menampilkan password wifi yang sedang terhubung.
   
+- # nmcli dev set wlan0 managed <[no/yes]>
+  |__ matikan/hidupkan managed mode di networkmanager
+

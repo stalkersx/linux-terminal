@@ -8,3 +8,9 @@ COMMAND PENGGUNAAN (language) :
 
 - $ <[command]> | grep -n <[text]>
   |__ temukan text dan nomor line dalam sebuah perintah
+
+- $ <[command]> | grep -A <[number]> <[text]>
+  |__ temukan text dan print berapa line selanjutnya berdasarkan nomor
+
+- $ <[command]> | grep -o <[text]>
+  |__ temukan text jika ada hanya print text nya

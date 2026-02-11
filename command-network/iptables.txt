@@ -1,0 +1,10 @@
+INFO (root) :
+  |__ cek alamat ip (info protocol) perangkat
+
+COMMAND INSTALL :
+- # sudo apt install iptables
+
+COMMAND PENGGUNAAN (network) :
+- # iptables -t nat -A POSTROUTING -o <[interface]> -j MASQUERADE
+- # iptables -t nat -A POSTROUTING -s <[ip addr hotspot]> -o <[interface]> -j MASQUERADE
+  |__ buat jalur akses point/hotspot dari interface yang menyediakan internet

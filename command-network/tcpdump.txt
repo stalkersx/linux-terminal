@@ -1,0 +1,8 @@
+INFO (root) :
+  |__ monitor proses jaringan
+
+COMMAND PENGGUNAAN (network) :
+- $ tcpdump -i <[interface]>
+  |__ monitor proses paket terkirim dan diterima dari interface
+  
+

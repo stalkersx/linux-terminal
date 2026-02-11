@@ -1,0 +1,9 @@
+INFO (root) :
+  |__ cek alamat ip (info protocol) perangkat
+
+COMMAND INSTALL :
+- # sudo apt install dnsmasq
+
+COMMAND PENGGUNAAN (network) :
+- # dnsmesq -i <[interface]> -d --port=0 --dhcp-range=10.0.1.10,10.0.0.50,12h --dhcp-options=6,8.8.8.8
+  |__ pemberian ip pada client yang terhubung pada hotspot, ingat 10.0.1.* ialah awalan ip hotspot
