@@ -1,0 +1,6 @@
+INFO (no-root) :
+  |__ monitor sebuah perintah di linux
+  
+COMMAND PENGGUNAAN (language) :
+- $ watch -n <[num_second]> <[command]>
+  |__ lakukan perintah/command berulang kali dengan waktu yang di tentukan tiap kali perintah
