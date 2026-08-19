@@ -38,5 +38,11 @@ penjelasan :
 1. menjalankan 1 perintah yang benar, jika perintah pertama gagal maka perintah ke 2 akan dijalankan
 2. ls mengecheck file ada tidak, jika tidak ada maka echo akan dijalankan
 
-	
+COMMAND ( {} ) :
 
+	ls /path/file && { echo jalankan; echo jalankan; }
+	command1 || { command2; command3; } && command4
+	
+penjelasan :
+- {;} ialah pembungkus command sebelum nemu modification lagi
+1. jalankan perintah 1 jika benar jalankan perintah selanjutnya

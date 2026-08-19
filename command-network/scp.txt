@@ -6,10 +6,11 @@ COMMAND INSTALL :
 
 COMMAND PENGGUNAAN SERVER (network) :
 - $ sshd
-  |__ create server ssh
+  |__ create server ssh and enable hospot
   
 COMMAND PENGGUNAAN CLIENT :
 - $ scp -P [port] [username_server@ip_address]:~/file/di/server /tempatkan/file/dilocal
+- $ scp -P -r [port] [username_server@ip_address]:~/file/di/server /tempatkan/file/dilocal. -r for folder
   |__ download file dari server ke local computer
 
 - $ scp -P [port] /file/local [username_server@ip_address]:/tempatkan/file
