@@ -1,0 +1,35 @@
+INFO (root/no-root) :
+  |__ monitor proses latar belakang berjalan
+
+COMMAND PENGGUNAAN (hardware) :
+- $ xdotool getmouselocation
+  |__ mendapatkan x dan y lokasi mouse saat ini
+  
+- $ xdotool mousemove [x] [y]
+  |__ memindahkan mouse ke posisi tertentu
+  
+- $ xdotool click [idclick]
+  |__ opsi click mouse 1=click_kiri, 2=click_kanan, 3=click_tengah, 4=scroll_atas, 5=scroll_bawah
+  
+- $ xdotool click --repeat [jumblahscroll] --delay [jumblahjeda] [idscroll]
+  |__ menscroll berapa kali dan mengatur jedanya
+  
+- $ xdotool click --window [idwin] [idscroll]
+  |__ scroll pada window tertentu
+  
+- $ xdotool type [text]
+  |__ mengetik otomatis di jendela saat ini
+  
+- $ xdotool getactivewindow
+  |__ mendapatkan id jendela aktif saat ini
+  
+- $ xdotool search --name [windowname]
+  |__ mencari window active berdasarkan nama
+  
+- $ xdotool windowactivate [idwin]
+  |__ mengaktifkan window yang akan digunakan
+  
+- $ xdotool key Ctrl+c
+  $ xdotool key return
+  |__ simulasi tekan tombol keyboard
+  

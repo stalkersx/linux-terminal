@@ -2,6 +2,38 @@ INFO (no-root) :
   |__ pipe get value command
 
 COMMAND PENGGUNAAN (language) :
-- $ <[command]> | awak '{print $1, $2, $3}'
+- $ <[command]> | awk '{print $1, $2, $3}'
   $ echo "hello my work" | awk '{print $3}'
   |__ print hanya index line tertentu
+  
+- $ <[command]> | awk '/kata/ {print $2}'
+  |__ print baris yang mengandung kata
+  
+- $ <[command]> | awk 'NR==2 {print $1}'
+  |__ print berdasarkan baris
+  
+- $ <[command]> | awk '{print NF}'
+  $ <[command]> | awk '{print $NF}'
+  |__ print jumblah index (NF) atau kata terakhir ($NF)
+  
+RUMUS AWK KONDISI :
+# BEGIN = jalan sebelum baca file (buat header)
+# END = jalan setelah file abis (buat total/rangkuman)
+awk 'BEGIN {print "mulai"} {print 0} END {print "selesai"}' file.txt
+
+# /pola/ = regex filter
+awk '/wifi/ {print}' #yang ada wifinya
+awk '/!wifi/ {print}' #yang ga ada wifinya
+awk '/^wlp/ {print}' #yang depannya wlp
+awk '/off$/ {print} #yang belakangnya off
+
+# kondisi angka dan string
+awk '$3 > 100 {print}' #kolom 3 > 100
+awk '$2 == "off" {print}' #kolom 2 sama dengan off
+awk '$1 != "" {print}' #kolom 1 tidak kosong
+awk 'NF > 3 {print}' #baris kolom > 3
+awk 'NR >= 2 && NF <= 5 {print}' #baris 2-5
+
+# && || kombinasi
+awk 'NR == 3 {print}' #cuma baris ke 3
+awk '/wifi/ && $3 == "off" {print}' #ada kata wifi, kolom 3 = off
